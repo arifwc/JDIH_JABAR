@@ -1,0 +1,1184 @@
+2020-02-28 07:00:44 [scrapy.utils.log] INFO: Scrapy 1.8.0 started (bot: scrapybot)
+2020-02-28 07:00:44 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.6.9 (default, Nov  7 2019, 10:44:02) - [GCC 8.3.0], pyOpenSSL 19.1.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Linux-5.3.0-40-generic-x86_64-with-Ubuntu-18.04-bionic
+2020-02-28 07:00:44 [scrapy.crawler] INFO: Overridden settings: {'FEED_FORMAT': 'csv', 'FEED_URI': 'sumedangkab.csv', 'LOG_FILE': 'sumedangkab.txt', 'SPIDER_LOADER_WARN_ONLY': True}
+2020-02-28 07:00:44 [scrapy.extensions.telnet] INFO: Telnet Password: 6fdfd3047fecf810
+2020-02-28 07:00:44 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2020-02-28 07:00:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-02-28 07:00:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-02-28 07:00:44 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2020-02-28 07:00:44 [scrapy.core.engine] INFO: Spider opened
+2020-02-28 07:00:44 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-02-28 07:00:44 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-02-28 07:00:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup> (referer: None)
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Forum Delegasi Musyawarah Perencanaan Pembangunan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penyelenggaraan Program Rantang Simpati Bagi Lanjut Usia Miskin Terlantar'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Penggunaan,Penyaluran,Pembinaan Dan Pengawasan Dana Bagi Hasil Pajak Daerah Dan Retribusi Daerah Bagi Desa Dan Alokasi Dana Desa Tahun 2020'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Kedua Atas Peraturan Bupati Nomor 24 Tahun 2016 Tentang Kebijakan Akuntansi Pemerintah Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Mal Pelayanan Publik'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Penggunaan, Penyaluran, Pelaporan, Pembinaan, Pengawasan, dan Pengenaan Sanksi Administratif Dana Desa Tahun 2020'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Kedua Atas Peraturan Bupati Nomor 6 Tahun 2019 Tentang Tambahan Penghasilan Pegawai Negeri Sipil Berbasis Kinerja'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kedudukan, Susunan Organisasi, Tugas, Fungsi Dan Tata Kerja Perangkat Daerah '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Percepatan Penurunan dan Pencegahan Stunting Terintegritas'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Sistem Akuntabilitas Kinerja Pemerintah Desa'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penjabaran Pertanggungjawaban Pelaksanaan Anggaran Pendapatan Dan Belanja Daerah Tahun Anggaran 2018'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Penerapan Manajemen Risiko Di Lingkungan Pemerintah Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penyelenggaraan Pelayanan Terpadu Satu Pintu Sistem Elektronik Izin Cetak Mandiri Yang Terintegrasi Dengan Aplikasi Online Single Submission Di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Teknis Penyaluran Bantuan Cadangan Pangan Pokok Daerah Kabupaten '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Atas Peraturan Bupati Nomor 105 Tahun 2017 Tentang Transaksi Non Tunai Di Lingkungan Pemerintah Kabupaten Sumedang '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pengendalian dan Evaluasi Rencana Pembangunan Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Pembagian Dan Penetapan Rincian Dana Desa Setiap Desa Tahun Anggaran 2020'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Sistem Klasifikasi Keamanan Dan Akses Arsip Dinamis'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Klasifikasi Arsip Di Lingkungan Pemerintah Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kawasan Tertib Lalu lintas'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Rencana Strategis Kecamatan Cimalaka Tahun 2018-2023'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Atas Peraturan Bupati Sumedang Nomor 114 Tahun 2015 Tentang Penyelenggaraan Pemerintahan Dengan Sistem Elektronik Di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Rencana Kerja Pemerintah Daerah Kabupaten Sumedang Tahun 2020 Buku II'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Rencana Kerja Pemerintahan Daerah Kabupaten Sumedang Tahun 2020 Buku I'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penjabaran Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2020'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Peraturan Pelaksanaan Peraturan Daerah Nomor 2 Tahun 2015 Tentang Tata Cara Pencalonan, Pemilihan, Pengangkatan, Dan Pemberhentian Kepala Desa'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Atas Peraturan Bupati Nomor 43 Tahun 2018 Tentang Rencana Kerja Perangkat Daerah Kabupaten Sumedang Tahun 2019'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penyelenggaraan Program Jaminan Sosial Ketenagakerjaan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Pemberian Penghargaan Kepada Pegawai Negeri Sipil, Tokoh Masyarakat dan Badan yang telah berjasa kepada Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Atas Peraturan Bupati Nomor 44 Tahun 2017 Tentang Petunjuk Teknis Pemberian Dan Pemanfaatan Insentif Pemungutan Pajak Daerah Dan Retribusi Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penjabaran Perubahan Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2019'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Atas Peraturan Bupati  Nomor 92 Tahun 2019 Tentang Standar Biaya Dan Standar Satuan Harga Kabupaten Sumedang Tahun Anggaran 2020'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Integrasi Sistem Perencanaan Pembangunan Tahunan Desa dengan Kabupaten Melalui Sistem e-Planning'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kartu Identitas Anak'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Rencana Aksi Daerah Penanggulangan Kemiskinan Kabupaten Sumedang Tahun 2019-2023'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Atas Peraturan Bupati Nomor 22 Tahun 2017 Tentang Uraian Tugas Jabatan Struktural Pada Dinas Pertanian Dan Ketahanan Pangan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Atas Peraturan Bupati Nomor 38 Tahun 2016 Tentang Kedudukan, Susunan Organisasi, Tugas, Fungsi Dan Tata Kerja Perangkat Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Standar Biaya Dan Standar Satuan Harga Kabupaten Sumedang Tahun  Anggaran 2020'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Rencana Strategis Kecamatan Jatigede'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pajak Bumi dan Bangunan Perdesaan dan Perkotaan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pembentukan Produk Hukum Desa'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Teknis Pemanfaatan Ruang Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Rekayasa LaluLintas Kawasan Dalam Kota'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pengelolaan Jaringan Dokumentasi dan Informasi Hukum'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Penyelenggaraan Kerja Sama Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Pemberian dan Pertanggungjawaban Bantuan Keuangan Kepada Desa'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 45 Tahun 2012 tentang Tata Cara Pemberian dan Pertanggungjawaban Bantuan Keuangan Kepada Desa'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Penghapusan Piutang Pajak Bumi Dan Bangunan Perdesaan Dan Perkotaan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Organisasi Dan Tata Kerja Perusahaan Daerah Air Minum Tirta Medal Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Badan Pengelolaan Pendapatan  Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural Pada  Dinas Perumahan, Kawasan Permukiman dan Pertanahan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Teknis Penyusunan Perjanjian Kinerja, Pelaporan Kinerja dan Tata Cara Reviu atas Laporan Kinerja di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Besaran Penghasilan Tetap dan Tunjangan Kepala Desa dan Perangkat Desa serta Besaran Tunjangan Badan Permusyawaratan Desa dan Staf Administrasi Badan Permusyawaratan Desa Tahun Anggaran 2020'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Standar Biaya dan Standar Satuan Harga Desa Tahun Anggaran 2020'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Mekanisme Pembinaan, Pengawasan Dan Pengendalian Pajak Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Satuan Polisi Pamong Praja Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Kantor Kesatuan Bangsa dan Politik Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Kependudukan dan Pencatatan Sipil'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Penilaian Risiko pada Perangkat Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kode Etik Penyelenggaraan Pelayanan Terpadu Satu Pintu'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Atas Peraturan Bupati Sumedang Nomor 74 Tahun 2015 Tentang Peraturan Pelaksanaan Peraturan Daerah Kabupaten Sumedang Nomor 2 Tahun 2015 Tentang Tata Cara Pencalonan, Pemilihan, Pengangkatan,'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Biaya Perjalanan Dinas Dalam Daerah Dalam Rangka Pengawasan Pada Inspektorat Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penerbitan Dan Pengelolaan Karcis Retribusi Daerah Di Lokasi Pasar Dan Lingkungan Pasar'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Atas Peraturan Bupati Sumedang Nomor 90 Tahun 2017 Tentang Penjabaran Perubahan Anggaran Pendapatan Dan Belanja Daerah Tahun Anggaran 2017'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Penyusunan Nilai Indikasi Rata-Rata, Zona Nilai Tanah, Dan Nilai Jual Objek Pajak Bumi Dan Bangunan Perdesaan Dan Perkotaan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pendelegasian Kewenangan Dari Bupati Kepada Kepala Dinas Pendidikan  Untuk Penandatanganan Keputusan Bupati Tentang Penugasan Tenaga Penyidik Dan Kependidikan Untuk Pembayaran Honor Yang Bersumber Dar'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pengelolaan Pelayanan Informasi Dan Dokumentasi Pemerintah Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Pengkajian Penyesuaian Daftar Biaya Komponen Bangunan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pendelegasian Kewenangan Di Bidang Perizinan Dan Non Perizinan Dari Bupati Kepada Dinas Penanaman Modal Dan Pelayanan Terpadu Satu Pintu Dalam Penyelenggaraan Pelayanan Terpadu Satu Pintu  Sistem Elek'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Penyusunan Anggaran Pendapatan Belanja Desa Tahun Anggaran 2018  '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Penghapusan Piutang Pajak'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Standar Pelayanan Minimal Pada Unit Pelaksana Teknis Laboratorium Kesehatan Daerah Yang Menerapkan Pola Pengelolaan Keuangan Badan Layanan Umum Daerah Penuh'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Penyusunan, Rencana Bisnis Dan Anggaran Serta Dokumen Pelaksanaan Anggaran Pada Unit Pelaksana Teknis Pusat Kesehatan Masyarakat Dan Unit Pelaksana Teknis Laboratorium Kesehatan Daerah sebag'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tugas, Fungsi, Wewenang, Dan Tanggungjawab Dan Wewenang Direksi Perusahaan Daerah Bank Perkreditan Rakyat Bank Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tarif pelayanan Pada Unit Pelaksana Teknis Dinas Pusat Kesehatan Masyarakat Yang Menerapkan Pola  Pengelolaan Keuangan Badan Layanan Umum Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pengelolaan Retribusi Pengendalian Menara Telekomunikasi '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Peraturan Pelaksanaan Perda Nomor 5 Tahun 2017 Tentang Hak Keuangan Dan Administratif Pimpinan Dan Anggota Dewan Perwakilan Rakyat Daerah '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Atas Peraturan Bupati Nomor 8 Tahun 2017 Tentang Uraian Tugas Jabatan Struktural Pada Dinas Perumahan, Kawasan Permukiman Dan Pertanahan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pola Tata Kelola Rumah Sakit Dan Peraturan Internal Staf Medis Pada Rumah Sakit Umum Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penjabaran Pertanggungjawaban Pelaksanaan Anggaran Pendapatan Dan Belanja Daerah Tahun Anggaran 2016'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Peraturan Pelaksanaan Peraturan Daerah Nomor 2 Tahun 2016 Tentang Pengelolaan Zakat, Infak Dan Sedekah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk  Pelaksanaan Perpanjangan Izin  Mempekerjakan Tenaga Asing'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Keempat Atas  Peraturan Bupati Sumedang Nomor 43 Tahun 2016 Tentang Penjabaran Anggaran Pendapatan Dan Belanja Daerah Tahun Anggaran 2017'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pembentukan Sekretariat Penyidik Pegawai Negeri Sipil Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Rencana Penerapan Standar Pelayanan Minimal Bidang  Penataan Ruang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penyelenggaraan Dan Pembinaan Satuan Perlindungan Masyarakat '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tarif Pelayanan Pada Rumah Sakit Umum Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Program  Dan Kegiatan Pada Setiap Satuan Kerja Perangkat Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Kedua  Peraturan Bupati Nomor 39 Tahun 2013 Tentang Penerapan Budaya Kerja Aparatur Negara Di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kode Etik Pengadaan Barang/Jasa'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Atas Peraturan Bupati Nomor 106 Tahun 2015 Tentang Tata Cara Pengalokasian Dan Pembagian Dana Bagi Hasil Pajak Daerah Dan Retribusi Daerah Bagi Desa Dan Alokasi Dana Desa'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Ketiga Atas  Peraturan Bupati Sumedang Nomor 43 Tahun 2016 Tentang Penjabaran Anggaran Pendapatan Dan Belanja Daerah Tahun Anggaran 2017'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pembentukan, Susunan Organisasi, Tugas, Fungsi Dan Tata Kerja Satuan Pendidikan Nonformal Sanggar Kegiatan Belajar Pada Dinas Pendidikan Kabupaten Sumedang '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Peraturan Pelaksanaan Peraturan Daerah Nomor 6 Tahun 2015 Tentang Penyelenggaraan Administrasi Kependudukan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural Pada  Dinas Arsip Dan Perpustakaan '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural Pada  Dinas Koperasi, Usaha Kecil, Menengah, Perdagangan Dan Perindustrian '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Teknis Pemberian Dan Pemanfaatan Insentif Pemungutan Pajak Daerah  Dan Retribusi Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Besaran Penghasilan Tetap Dan Tunjangan Kepala Desa Dan Perangkat Desa Serta Besaran Tunjangan Badan Permusyawaratan Desa Dan Staf Administrasi Badan Permusyawaratan Desa Tahun Anggaran 2019'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Penetapan dan Perhitungan Nilai Perolehan Air Tanah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Staf Administrasi Badan Permusyawaratan Desa'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan kedua atas peraturan bupati nomor 107 tahun 2017 tentang Tambahan Penghasilan Pegawai Negeri Sipil di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penjabaran Pertanggungjawaban pelaksanaan Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2017'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Pelaksanaan Pengarusutamaan Gender dalam Pembangunan Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pengendalian dan Evaluasi Pelaksanaan Kegiatan Pembangunan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Kedua atas Peraturan Bupati Sumedang Nomor Peraturan Bupati Sumedang Nomor 43 Tahun 2016 tentang Penjabaran Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2017'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 97 Tahun 2015 tentang Pendelegasian Kewenangan Penandatanganan Pemberian Izin Usaha Mikro dan Kecil dari Bupati kepada Camat di Lingkungan Pemerintah Kab'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Nomor 39 Tahun 2013 tentang Penerapan Budaya Kerja Aparatur Negara di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Pembagian dan Penetapan Besaran Dana Desa setiap Desa Tahun Anggaran 2018'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Penggunaan, Penyaluran, Pelaporan Pembinaan dan Pengawasan Dana Bagi Hasil Pajak Daerah dan Retribusi Daerah Bagi Desa dan Alokasi Dana Desa'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pelimpahan sebagian kewenangan Pengelolaan Pajak Bumi dan Bangunan Perdesaan dan Perkotaan dari Bupati kepada Badan Pengelolaan Pendapatan Daerah Kecamatan dan Pemerintah Desa/Kelurahan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pelimpahan Sebagian Kewenangan kepada Kepala Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Kecamatan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Mencabut '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Badan Pengelolaan Keuangan dan Aset Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Badan Kepegawaian dan Pengembangan Sumberdaya Manusia'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Perikanan dan Peternakan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Pertanian dan Ketahanan Pangan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Pariwisata, Kebudayaan, Kepemudaan dan Olahraga'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Komunikasi Informatika, Persandian dan Statistik'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Perhubungan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Pengendalian Penduduk dan Keluarga Berencana'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Pemberdayaan Masyarakat dan Desa'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Lingkungan Hidup dan Kehutanan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Sosial, Pemberdayaan Perempuan dan Perlindungan Anak'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Pekerjaan Umum dan Penataan Uang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Pendidikan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Inspektorat'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Sekretariat Dewan Perwakilan Rakyat Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Sekretariat Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pembentukan, Susunan Organisasi dan Tata Kerja Unit Pelaksana Teknis pada Perangkat Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kemampuan Keuangan Daerah Kabupaten Sumedang Tahun Anggaran 2019'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pendidikan Wajib Diniyah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Nomor 69 Tahun 2018 tentang Penjabaran Anggaran  Pendapatan dan Belanja Daerah Tahun Anggaran 2019'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Biaya Penunjang Operasional Bupati  '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Penggunaan, Penyaluran, Pelaporan, Pembinaan Dan Pengawasan Dana Bagi Hasil Pajak Daerah Dan Retribusi Daerah Bagi Desa Dan Alokasi Dana Desa Tahun Anggaran 2019'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Pembagian Dan Penetapan Rincian Dana Desa Setiap Desa Tahun Anggaran 2019'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Laporan Harta Kekayaan Penyelenggara Negara Dan Laporan Harta Kekayaan Aparatur Sipil Negara '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pengelolaan Sistem Informasi Pembangunan Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pengelolaan Keuangan Desa'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penetapan Dan Penegasan Batas Desa Di Wilayah Genangan Waduk Jatigede'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pendelegasian Kewenangan Di Bidang Perizinan Dan Non Perizinan Dari Bupati Kepada Dinas Penanaman Modal Dan Pelayanan Terpadu Satu Pintu Dalam Penyelenggaraan Pelayanan Terpadu Satu Pintu Sistem Elekt'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Sistem Dan Prosedur Pengelolaan Dan Pemungutan Serta Tata Cra Pelaporan Bea Perolehan Hak Atas Tanah Dan Bangunan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Pengalokasian Dan Pembangian Dana Bagi Hasil Pajak Daerah Dan Retribusi Daerah Bagi Desa Dan Alokasi Dana Desa.'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Teknis Penyelenggaraan Peningkatan Kapasitas Anggota Satuan Perlindungan Masyarakat'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pendidikan diniyah dan pendidikan Al-Quran.'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pembentukan Susunan Organisasi Dan Tata Kerja Unit Pelaksana Teknis Daerah Pada Perangkat Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pelaksanaan Fasilitasi Penyelenggaraan Pengadaan Tanah Bagi Pembangunan Untuk Kepentingan Umum Skala Kecil'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Rencana Pembangunan Kawasan Perdesaan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Biaya Operasional Penyampaian Dan Penagihan Surat Pemberitahuan Pajak Terhutang Pajak Bumi Dan Bangunan Perdesaan Dan Perkotaan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pemberdayaan Produk Unggulan Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Atas Peraturan Bupati Sumedang Nomor 110 Tahun 2017 Tentang Tata Cara Penyaluran, Penggunaan, Pelaporan, Pembinaan Dan Pengawasan Dana Desa Tahun 2018'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Ujian Dinas dan Ujian Penyesuaian Kenaikan Pangkat Bagi Pegawai Negeri Sipil di Lingkungan Pemerintah Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Teknis Pemberian Gaji Dan Tunjangan Ketiga Belas Kepada Pegawai Negeri Sipil, Bupati Dan Wakil Bupati, Dan Anggota Dewan Perwakilan Rakyat Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Teknis Pemberian Tunjangan Hari Raya Kepada Pegawai Negeri Sipil, Bupati Dan Wakil Bupati, Dan Anggota Dewan Perwakilan Rakyat Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Daftar Kewenangan Desa Berdasarkan Hak Asal Usul Dan Kewenangan Lokal Berskala Desa Di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Atas Peraturan Bupati Nomor 3 Tahun  2019 Tentang Peraturan Pelaksana Peraturan Daerah Nomor 4 Tahun 2008 Tentang Pembentukan Lembaga Penyiaran Publik Lokal Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Nomor 6 Tahun 2019 tentang Tambahan Penghasilan Pegawai Negeri Sipil Berbasis Kinerja'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kode Etik Pegawai Negeri Sipil'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kebijakan Dan Strategi Daerah Kabupaten Sumedang Dalam Pengelolaan Sampah Rumah Tangga Dan Sampah Sejenis Sampah Rumah Tangga '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tambahan Penghasilan Pegawai Negeri Sipil Berbasis Kinerja'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Ujian Dinas dan Ujian Penyesuaian Kenaikan Pangkat Bagi Pegawai Negeri Sipil'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Peraturan Pelaksanaan Peraturan Daerah Nomor 4 Tahun 2008 Tentang Pembentukan Lembaga Penyiaran Publik Lokal Kabupatn Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Nilai Dan Kelas Jabatan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penjabaran Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2019'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Besaran Dan Peruntukan Pagu Indikatif Sektoral Dan Pagu Indikatif Kewilayahan Tahun Anggaran 2019'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kode Rekening Penganggaran'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Teknis Rehabilitasi dan Rekontruksi Pasca Bencana Sektor Permukiman'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Penyaluran, Penggunaan, Pelaporan, Pembinaan dan Pengawasan Dana Desa Tahun 2019'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Penyusunan Anggaran Pendapatan dan Belanja Desa Tahun Anggaran 2019'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Teknis Pengelolaan Hibah dan Bantuan Sosial yang Bersumber dari Anggaran Pendapatan dan Belanja Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pakaian Dinas Aparatur Sipil Negara di Lingkungan Pemerintah Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Sistem Layanan dan Rujukan Terpadu Rumah Besar Simpati Penanganan Fakir Miskin dan Orang Tidak Mampu'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Biaya Penunjang Operasional Bupati Dan Wakil Bupati Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Teknis Penyusunan Rencana Kerja dan Anggaran Tahun Anggaran 2019'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Nomor 53 Tahun 2017 tentang Rencana Kerja Pemerintah Daerah Kabupaten Sumedang Tahun 2018'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Biaya Penunjang Operasional Bupati dan Wakil Bupati'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Teknis Penyusunan Rencana Pembangunan Jangka Menengah Desa dan Rencana Kerja Pemerintah Desa'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Road Map Reformasi Birokrasi Pemerintah Kabupaten Sumedang Tahun 2015-2019'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Rencana Kerja Perangkat Daerah Kabupaten Sumedang Tahun 2019'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penyelenggaraan Tanggung Jawab Sosial dan Lingkungan Perusahaan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Nomor 87 Tahun 2015 tentang Penerapan Indikator Kinerja Utama di Lingkungan Pemerintah  Kabupaten Sumedang Tahun 2014-2018'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Keempat atas Peraturan Bupati Sumedang Nomor 115 Tahun 2017 tentang Penjabaran Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2018'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Ketiga atas Peraturan Bupati Sumedang Nomor 115 Tahun 2017 tentang Penjabaran Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2018'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Kedua atas Peraturan Bupati Nomor 115 Tahun 2017 tentang Penjabaran Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2018'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Jabatan Fungsional'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Teknis Pendirian, Pengelolaan dan Pembubaran Badan Usaha Milik Desa'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Rencana Strategis Rumah Sakit Umum Daerah Kabupaten Sumedang Tahun 2014-2018'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Nomor 112 Tahun 2017 tentang Tata Cara Penggunaan, Penyaluran, Pelaporan, Pembinaan dan Pengawasan Dana Bagi Hasil Pajak Daerah dan Retribusi Daerah Bagi Desa dan Aloka'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pelaksanaan Hari Bebas Kendaraan Bermotor'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pola Karier Pegawai Negeri Sipil'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Nomor 115 Tahun 2017 tentang Penjabaran Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2018'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Rencana Umum Penanaman Modal Kabupaten Sumedang Tahun 2018-2025'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kode Rekening Penganggaran'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pendelegasian Kewenangan Penandatanganan Keputusan Bupati tentang Penugasan Tenaga Pendidik dan Kependidikan Non Pegawai Negeri Sipil dari Bupati kepada Kepala Dinas Pendidikan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penyelenggaraan Parkir'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pengelolaan Dana Kegiatan Pemilihan Bupati dan Wakil Bupati Sumedang Tahun 2018'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tarif Pelayanan pada Unit Pelaksana Teknis Dinas Laboratorium Kesehatan Daerah yang Menerapkan Pola  Pengelolaan Keuangan Badan Layanan Umum Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kemampuan Keuangan Daerah Kabupaten Sumedang Tahun Anggaran 2018'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kemampuan Keuangan Daerah Kabupaten Sumedang Tahun Anggaran 2017'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 23 Tahun 2013 tentang Standar Operasional Prosedur Pengelolaan dan Pengaduan Pelayanan Publik di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Kesehatan '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penyelenggaraan Bangunan Gedung'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pengelolaan Jaringan Dokumentasi dan Informasi Hukum'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Transaksi Non Tunai di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Ketiga atas Peraturan Bupati Nomor 88 Tahun 2009 tentang Petunjuk Pelaksanaan 1 Kabupaten Sumedang Nomor 1 Tahun 2009 tentang Penyelenggaraan Administrasi Kependudukan di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Kedua atas Peraturan Bupati Sumedang Nomor 88 Tahun 2009 tentang Petunjuk Pelaksanaan Peraturan Daerah Kabupaten Sumedang Nomor 1 Tahun 2009 tentang Penyelenggaraan Administrasi Kependudukan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Kedua atas Peraturan Bupati Sumedang Nomor 50 Tahun 2011 tentang Standar Biaya dan Harga Belanja Daerah Kabupaten Sumedang Tahun Anggaran 2012'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perhitungan Pembagian Dana Bagi Hasil Pajak Daerah dan Retribusi Daerah Bagi Desa dan Alokasi Dana Desa'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 26 Tahun 2009 tentang Uraian Tugas Jabatan Struktural serta Pembagian Wilayah Kerja pada Inspektorat Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Badan Kesatuan Bangsa, Perlindungan Masyarakat dan Penanggulangan Bencana Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pagu Indikatif Kecamatan Kabupaten Sumedang Tahun Anggaran 2010'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Alokasi dan Penyaluran Pupuk Bersubsidi untuk Sektor Pertanian dan Perikanan Tahun 2010 di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Nomenklatur, Jumlah, Susunan Organisasi dan Wilayah Kerja Unit Pelaksana Teknis Dinas dan Badan pada Satuan Kerja Perangkat Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penjabaran Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2008'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Teknis Tata Cara Pengelolaan dan Pertanggungjawaban Belanja Hibah Pemilihan Umum Bupati dan Wakil Bupati Sumedang Tahun 2008 pada Komisi Pemilihan Umum Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pagu Pengeluaran Sebelum Anggaran Pendapatan dan Belanja Daerah Kabupaten Sumedang Tahun Anggaran 2016 Ditetapkan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Teknis Penyusunan Rencana Kerja dan Anggaran Satuan Kerja Perangkat Daerah Program dan Kegiatan pada Setiap Satuan Kerja Perangkat Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penjabaran Pertanggungjawaban Pelaksanaan Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2014'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Ketiga atas Peraturan Bupati Sumedang Nomor 4 Tahun 2015 tentang Penjabaran Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2015'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Teknis Pemberian dan Pemanfaatan Insentif Pemungutan Pajak Daerah dan Retribusi Daerah di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Kedua atas Peraturan Bupati Sumedang  Nomor 4 tentang  Penjabaran Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2015'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Teknis Program Beras Untuk Rumah Tangga Miskin Tahun 2015'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pemberian Insentif dan Kemudahan dalam Penyelenggaraan Penanaman Modal di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kode Rekening Penganggaran dan  Bagan Akun Standar di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Ketiga atas Peraturan Bupati Sumedang Nomor 44 Tahun 2011 tentang Penetapan Besaran Tarif Pelayanan pada Rumah Sakit Umum Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penggunaan Dana Bagi Hasil Pajak Daerah dan Retribusi Daerah  Bagi Desa dan Alokasi Dana Desa'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 51 Tahun 2011 tentang Tata Cara Penganggaran, Pelaksanaan dan Penatausahaan, Pertanggungjawaban dan Pelaporan serta Monitoring dan Evaluasi  Hibah dan Ba'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pagu Indikatif Kecamatan Kabupaten Sumedang Tahun Anggaran 2012'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Umum Penyusunan Indeks Kepuasan Masyarakat (IKM) Unit Pelayanan di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 13 Tahun 2010 tentang Tata Cara Pemberian dan Pertanggungjawaban Hibah, Bantuan Sosial dan Bantuan Keuangan di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 2 Tahun 2009 tentang Uraian Tugas Jabatan Struktural pada Sekretariat Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Teknis Pelaksanaan Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2010'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Nomor 119 Tahun 2017 tentang Tata Cara Pembagian dan Penetapan Rincian Dana Desa Setiap Desa Tahun 2018'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 31 Tahun 2016 tentang Tambahan Penghasilan Pegawai Negeri Sipil di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Teknis Pengelolaan Dana Program Jaminan Kesehatan Daerah Jaminan Pemeliharaan Kesehatan Masyarakat Miskin Bagi Masyarakat Miskin di Luar Kuota Jaminan Kesehatan Masyarakat di Kabupaten Sumeda'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pengembangan Kawasan Strategis Cepat Tumbuh Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pembentukan Layanan Pengadaan Secara Elektronik Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penetapan Besaran Tarif Pelayanan pada Rumah Sakit Umum Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Seleksi Anggota Dewan Pengawas dan Direksi Perusahaan Daerah Air Minum Insul Medal Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Nomor 4 Tahun 2011 tentang Penjabaran Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2011'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pengelolaan Program Jaminan Kesehatan Masyarakat, Jaminan Persalinan dan Asuransi Kesehatan Pegawai Negeri Sipil di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Penyaluran dan Pertanggung Jawaban Dana Bagi Hasil Pajak Daerah dan Retribusi Daerah Bagi Desa dan Alokasi Dana Desa'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pembentukan Instalasi pada Rumah Sakit Umum Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 48 Tahun 2010 tentang Standar Biaya dan Harga Belanja Daerah Kabupaten Sumedang Tahun Anggaran 2011'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Teknis Pemberian dan Pemanfaatan Insentif Pemungutan Pajak Daerah dan Retribusi Daerah di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Organisasi dan Tata Kerja Perusahaan Daerah Air Minum Tirta Medal Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Ketentuan Pokok Kepegawaian Perusahaan Daerah Bank Perkreditan Rakyat Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Sumedang Puseur Budaya Sunda (SPBS)'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Standar Operasional Prosedur Bidang Kepegawaian pada Badan Kepegawaian Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Syarat dan Uraian Tugas Jabatan Fungsional Umum pada Badan Kepegawaian Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Standarisasi Sarana dan Prasarana Kerja di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Sumber Pendanaan Kegiatan Tahun Anggaran 2009'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pencabutan Peraturan Bupati Sumedang Nomor 34 Tahun 2009 tentang Pembentukan Tim Koordinasi Penanggulangan Kemiskinan Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Nilai Jual Tenaga Listrik atas Penggunaan Tenaga Listrik yang Berasal dari Bukan PLN'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Penilaian Sinergitas Kinerja Kecamatan Tingkat Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Pelaksanaan Peraturan Daerah Kabupaten Sumedang Nomor 1 Tahun 2009 tentang Penyelenggaraan Administrasi Kependudukan di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penjabaran Pertanggungjawaban Pelaksanaan Anggaran Pendapatan dan Belanja Daerah Kabupaten Sumedang Tahun Anggaran 2008'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pelimpahan Sebagian Kewenangan Penandatanganan Dalam Bidang Kepegawaian dari Bupati kepada Para Pejabat di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Syarat dan Uraian Tugas Jabatan Fungsional Umum pada Sekretariat Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Kerja dan Penilaian Angka Kredit Jabatan Teknik Penyehatan Lingkungan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Kerja dan Penilaian Angka Kredit Jabatan Pranata Komputer'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Kerja dan Penilaian Angka Kredit Jabatan Penguji Mutu Barang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Kerja dan Penilaian Angka Kredit Jabatan Pengendali Ekosistem Hutan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Kerja dan Penilaian Angka Kredit Jabatan Pengawas Mutu Pakan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Kerja dan Penilaian Angka Kredit Jabatan Pengawas Bibit Ternak'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Kerja dan Penilaian Angka Kredit Jabatan Fisioterapi'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Standar Biaya dan Harga Belanja Daerah Kabupaten Sumedang Tahun 2009'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Standar Operasional Prosedur Pelayanan Perizinan Terpadu Pada Badan Penanaman Modal dan Pelayanan Perizinan Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 42 Tahun 2004 tentang Pelimpahan Sebagian Kewenangan Pemerintahan dari Bupati kepada Camat di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Dewan Ketahanan Pangan Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Pengelolaan Dana Pendidikan pada Akademi Keperawatan Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pembentukan Organisasi dan Tata Kerja Tim Koordinasi Pemberdayaan Perempuan (TKPP) Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kode Rekening Penganggaran di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pelimpahan Sebagian Kewenangan Pengelolaan Keuangan Daerah Bidang Pendapatan Daerah dan Piutang Daerah dari Bupati kepada Kepala Satuan Kerja Perangkat Daerah dan Kepala Unit Kerja pada Satuan Kerja P'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pelimpahan Sebagian Kewenangan Penandatanganan Perizinan dari Bupati kepada Kepala Badan Penanaman Modal dan Pelayanan Perizinan Kabupaten Sumedang serta Proses Persetujuan Prinsip dan Izin Lokasi di '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pembentukan Tim Koordinasi Penanggulangan Kemiskinan Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Kecamatan di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Kantor Perpustakaan Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural serta Pembagian Wilayah Kerja pada Inspektorat Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Badan Pemberdayaan Masyarakat dan Pemerintahan Desa Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Badan Lingkungan Hidup Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Badan Ketahanan Pangan, Penyuluhan Pertanian, Perikanan dan Kehutanan Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Perhubungan, Komunikasi dan Informatika Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Perindustrian dan Perdagangan Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Pertambangan, Energi dan Pertanahan Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural Pada Dinas Kebudayaan, Pariwisata, Pemuda dan Olahraga Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Kehutanan dan Perkebunan Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Pertanian Tanaman Pangan dan Holtikultura Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Kesehatan Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Pendidikan Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Sekretariat DPRD Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Standar Pelayanan Minimal pada Unit Pelaksana Teknis Daerah Pusat Kesehatan Masyarakat yang Menerapkan Pola Pengelolaan Keuangan Badan Layanan Umum Daerah '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penugasan Guru sebagai Kepala Sekolah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Standar Operasional Prosedur Layanan Tamu Berbasis Budaya Sunda di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 78 Tahun 2009 tentang Syarat dan Uraian Tugas Jabatan pada Sekretariat Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Standar Pelayanan Minimal Rumah Sakit Umum Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Standar Pelayanan Minimal Bidang Komunikasi dan Informatika di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Teknis Penyelenggaraan  Pemasangan dan Perhitungan Nilai Sewa Reklame'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pakaian Dinas Pegawai Negeri Sipil di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pengelolaan Pegawai Badan Layanan Umum Daerah Non Pegawai Negeri Sipil Rumah Sakit Umum Daerah Kabupaten Sumedang '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Standar Pelayanan Minimal Bidang Perhubungan di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Standar Pelayanan Minimal Bidang Layanan Terpadu Bagi Perempuan dan Anak Korban Kekerasan di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Standar Pelayanan Minimal Bidang Ketahanan Pangan di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Standar Pelayanan Minimal Bidang Kesenian di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Organisasi dan Tata Kerja Perusahaan Daerah Air Minum Tirta Medal Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Pelaksanaan Pengelolaan Retribusi Pengendalian Menara Telekomunikasi'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Sistem dan Prosedur Pemungutan Bea Perolehan Hak atas Tanah dan Bangunan Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Unit Layanan Pengadaan Barang/Jasa Pemerintah Kabupaten Sumedang '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 38 Tahun 2010 tentang Jabatan Fungsional Tertentu di Lingkungan Pemerintah Kabupaten Sumedang '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Pelaksanaan Peraturan Daerah  Kabupaten Sumedang Nomor 10 Tahun 2011 tentang Pengelolaan Taman Hutan Raya Gunung Kunci dan Gunung Palasari'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 69 Tahun 2013 tentang Standar Pelayanan Minimal Bidang Pemerintahan Dalam Negeri di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Pengelolaan Barang Persediaan di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Program Wajib Belajar Pendidikan Diniyah Takmiliyah Awaliyah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Rukun Tetangga dan Rukun Warga'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penyelenggaraan Angkutan Orang dan Barang dengan Sepeda Motor di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pengembangan dan Pembinaan Kemampuan Profesional Pendidik dan Tenaga Kependidikan'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penataan dan Pemberdayaan Pedagang Kaki Lima di Kabupaten Sumedang '}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 48 Tahun 2012 tentang Organisasi dan Tata Kerja Perusahaan Daerah Air Minum Tirta Medal Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Standar Pelayanan Minimal Bidang Pekerjaan Umum dan Penataan Ruang di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penataan dan Pemerataan Guru Pegawai Negeri Sipil'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penerapan Budaya Kerja Aparatur Negara di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Teknis Pengelolaan Dana Program Jaminan Kesehatan Daerah Jaminan Pemeliharaan Kesehatan Masyarakat Miskin Di Luar Kuota Jaminan Kesehatan Masyarakat di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Pemberian dan Pertanggungjawaban Belanja Tidak Terduga'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Pelaksanaan Pengadaan Barang /Jasa Pada Badan Layanan Umum Daerah Rumah Sakit Umum Daerah kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Kedua atas Peraturan Bupati Nomor 83 Tahun 2011 tentang Sistem dan Prosedur Pengelolaan Keuangan Daerah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pembentukan Instalasi, Satuan Pengawasan Internal dan Komite pada Rumah Sakit Umum Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 49 Tahun 2014 tentang Nomenklatur Jumlah Susunan Organisasi dan Wilayah Kerja Unit Pelaksana Teknis Dinas dan Badan pada Satuan Kerja Perangkat Daerah Ka'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pelaksanaan Anggaran Dalam Rangka Penyelesaian Pekerjaan yang Tidak Terselesaikan Sampai Dengan Akhir Tahun Anggaran'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Tata Cara Perhitungan, Penganggaran dalam  Anggaran Pendapatan dan Belanja Daerah, Pengajuan, Penyaluran, dan Laporan Pertanggungjawaban Penggunaan Peggunaan Bantuan Keuangan Partai Politik ya'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Jenis Usaha dan/atau Kegiatan yang wajib Dilengkapi dengan Upaya Pengelolaan Lingkungan Hidup di Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Teknis Penyusunan Rencana Kerja Anggaran Satuan Kerja Perangkat Daerah dan Rencana Kerja Anggaran Pejabat Pengelola Keuangan Daerah Tahun Anggaran 2015'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 57 Tahun 2013 tentang Tata Cara Penganggaran, Pelaksanaan dan Penatausahaan, Pertanggungjawaban dan Pelaporan serta Monitoring dan Evaluasi Hibah dan Ban'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Pelaksanaan Pengelolaan Retribusi Pengendalian Menara Telekomunikasi'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 76 Tahun 2010 tentang Penugasan Guru sebagai Kepala Sekolah'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Rencana Kerja Pemerintah Daerah Kabupaten Sumedang Tahun 2015'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Pelaksanaan Pameran Potensi Produk Unggulan Daerah Dalam Rangka Peringatan Hari Jadi Sumedang Ke 436 Tahun 2014'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pola Remunerasi Pegawai Negeri Sipil, Non Pegawai Negeri Sipil dan Dosen Tidak Tetap pada Badan Layanan Umum Daerah Akademik Keperawatan Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Pengelolaan Pegawai Badan Layanan Umum Daerah Non Pegawai Negeri Sipil Pada Layanan Umum Daerah Akademi Keperawatan Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Peraturan Bupati Sumedang Nomor 3 Tahun 2013 tentang Petunjuk Pelaksanaan Pengadaan Barang/Jasa pada Badan Layanan Umum Daerah Rumah Sakit Umum Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Pelaksanaan Perpanjangan Izin Mempekerjakan Tenaga Kerja Asing'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Ketentuan Pokok Dewan Pengawas, Direktur dan Kepegawaian Perusahaan Daerah Air Minum Tirta Medal Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Dewan Pendidikan Kabupaten Sumedang'}
+2020-02-28 07:00:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Pemeriksaan Pajak Daerah'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Pemungutan Pajak Daerah'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Akuntansi pada Badan Layanan Umum Daerah Rumah Sakit Umum Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pemberian Tambahan Penghasilan Pegawai Kepada Pegawai Aparatur Sipil Negara di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Besaran Penghasilan Tetap, Tunjangan dan Penerimaan Lainnya yang Sah Kepala Desa dan Perangkat Desa, dan Besaran Tunjangan Badan Permusyawaratan Desa Tahun Anggaran 2016'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pelimpahan Sebagian Kewenangan Pengelolaan Pajak Bumi dan Bangunan Perdesaan dan Perkotaan dari Bupati kepada Dinas Pendapatan, Unit Pelaksana Teknis Dinas Dinas Pelayanan Pajak, Kecamatan dan Pemerin'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pendaftaran Nomor Pokok Wajib Pajak Cabang dan Pengukuhan Pengusaha Kena Pajak Bagi Pelaku Usaha yang Melakukan Kegiatan Usaha dan/atau Pekerjaan di Wilayah Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Ekstensifikasi dan Intensifikasi Pajak Penghasilan Orang Pribadi Dalam Negeri dan Pajak Penghasilan Pasal 21'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kebijakan Akuntansi Pemerintah Daerah'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Teknis Penyusunan Rencana Kerja Anggaran Satuan Kerja Perangkat Daerah dan Rencana Kerja Anggaran Pejabat Pengelola Keuangan Daerah Tahun Anggaran 2016'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 12 Tahun 2013 tentang Rencana Tata Bangunan dan Lingkungan Kawasan Strategis Provinsi  Pendidikan Jatinangor'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pengendalian Gratifikasi'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kode Rekening dan Bagan Akun Standar Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Pembagian Dan Penetapan Besaran Dana Desa Setiap Desa Di Kabupaten Sumedang Tahun Anggaran 2015'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Atas Peraturan Bupati Sumedang Nomor 60 Tahun 2014 tentang Tata Cara Pengadaan Barang/Jasa di Desa'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kerjasama Badan Layanan Umum Daerah di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pengelolaan Keuangan Desa'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Sistem dan Prosedur Layanan Pengadaan Barang/Jasa Pemerintah Kabupaten Sumedang                                                                                                                         '}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pola Tata Kelola Rumah Sakit dan Peraturan Internal Staf Medis pada Rumah Sakit Umum Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Kecamatan Tipe C Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Badan Penanggulangan Bencana Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Kantor Arsip dan Perpustakaan Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Kantor Ketahanan Pangan Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Rumah Sakit Umum Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Badan Pemberdayaan Masyarakat, Pemerintahan Desa, Keluarga Berencana, dan Pemberdayaan Perempuan Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Badan Lingkungan Hidup Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Badan Kepegawaian, Pendidikan dan Pelatihan Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Kehutanan dan Perkebunan Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada  Dinas Pertanian, Peternakan dan Perikanan Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Pendapatan Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada  Dinas Kependudukan dan Pencatatan Sipil Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada  Dinas Energi, Sumber Daya Mineral dan Pertanahan Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada  Dinas Kesehatan Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada  Sekretariat Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Peraturan Pelaksanaan 1 Nomor 17 Tahun 2014 tentang Kawasan Tanpa Rokok'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Pelaksanaan Pengelolaan Dana Bergulir'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pagu Pengeluaran Sebelum Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2017 Ditetapkan'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Nomor 27 Tahun 2016 tentang  Penjabaran Perubahan Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2016'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tambahan Penghasilan Pegawai Negeri Sipil di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Bagan Akun Standar'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pengelolaan Aset Desa'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kebijakan Akuntansi Pemerintah Daerah'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pemberian Tugas Belajar dan Izin Belajar Bagi Pegawai Negeri Sipil di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Sumedang Nomor 82 Tahun 2015 tentang Rencana Kerja Pemerintah Daerah Kabupaten Sumedang Tahun  2016'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pendaftaran Organisasi Kemasyarakatan'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Besaran dan Peruntukan Pagu Indikatif Sektoral dan Kewilayahan Kabupaten Sumedang Tahun Anggaran 2017'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Pembagian dan Penetapan Rincian Dana Desa Setiap Desa Tahun Anggaran 2016'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Peraturan Pelaksanaan 1 Nomor 10 Tahun 2015 tentang Organisasi Pemerintah Desa'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penghapusan dan Penggabungan Desa yang Terkena Dampak Pembangunan Waduk Jatigede'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Kedua atas Peraturan Bupati Nomor 57 Tahun 2013 tentang Tatacara Penganggaran, Pelaksanaan dan Penatausahaan, Pertanggungjawaban dan Pelaporan serta Monitoring  dan Evaluasi Hibah dan Bantua'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Atas Peraturan Bupati Nomor 42 Tahun 2011 tentang Penyelenggaraan Sistem Pengendalian Intern Pemerintah di Lingkungan Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Kebijakan dan Strategi Daerah Pengembangan Sistem Penyediaan Air Minum'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penilaian Risiko Pada Perangkat Daerah'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Teknis Program Subsidi Beras Sejahtera Tahun 2017'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan Kedua atas Peraturan Bupati Nomor 10 Tahun 2016 tentang Rencana Kerja Pemerintah Daerah Kabupaten Sumedang Tahun 2017'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Rencana Kerja Pemerintah Daerah Kabupaten Sumedang Tahun  2018'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pembentukan, Susunan Organisasi, Tugas, Fungsi dan Tata Kerja Taman Kanak-Kanak Negeri Pembina Kecamatan Paseh, Surian dan Jatinunggal'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Nomor 24 Tahun  2016 tentang Kebijakan Akuntansi Pemerintah Daerah '}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Petunjuk Pelaksana Evaluasi atas Implementasi Sistem Akuntabilitas Kinerja Instansi Pemerintah'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Perubahan atas Peraturan Bupati Nomor 43 Tahun 2016 tentang Penjabaran Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2017'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Besaran dan Peruntukan Pagu Indikatif Sektoral dan Kewilayahan Kabupaten Sumedang Tahun Anggaran 2018'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Kelurahan '}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Badan Perencanaan Pembangunan, Penelitian dan Pengembangan Daerah   '}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu '}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Tenaga Kerja dan Transmigrasi '}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Satuan Polisi Pamong Praja'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Pembagian Dan Penetapan Rincian Dana Desa Setiap Desa Tahun 2018'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penjabaran Anggaran Pendapatan Dan Belanja Daerah Tahun Anggaran 2018'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Penggunaan, Penyaluran, Pelaporan, Pembinaan Dan Pengawasan Dana Bagi Hasil Pajak Daerah Dan Retribusi Daerah Bagi Desa Dan Alokasi Dana Desa Tahun 2018'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tata Cara Penggunaan, Penyaluran, Pelaporan, Pembinaan Dan Pengawasan Dana Desa Tahun 2018 '}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Tambahan Penghasilan Bagi Pegawai Negeri Sipil  Di Lingkungan Pemerintah Kabupupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penyelenggaraan Pelayanan Terpadu Satu Pintu Sistem Elektronik Izin Cetak  Mandiri  Di  Lingkungan  Pemerintah Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Penjabaran Perubahan Anggaran Pendapatan Dan Belanja Daerah Tahun Anggaran 2017  '}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Besaran Penghasilan Tetap Dan Tunjangan Kepala Desa Dan Perangkat Desa Dan Besaran Tunjangan Badan Permusyawaratan Desa  Tahun Anggaran 2018'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perbup>
+{'peraturan': 'Pedoman Teknis Penyusunan Rencana Kerja  Dan Anggaran  Tahun Anggaran 2018'}
+2020-02-28 07:00:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.sumedangkab.go.id/index.php/front/aturan_kepbup> (referer: None)
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_kepbup>
+{'peraturan': 'Pencabutan Keputusan Bupati Sumedang Nomor 426.21/Kep.251-Huk/2007 tentang Pengangkatan Pengelola Gedung Olah Raga Tajimalela Kabupaten Sumedang '}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_kepbup>
+{'peraturan': 'Penetapan Harga Dasar Tanah di Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_kepbup>
+{'peraturan': 'Pengukuhan Forum Karang Taruna Tingkat Kabupaten Sumedang Masa Bhakti 2016-2021'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_kepbup>
+{'peraturan': 'Besaran Alokasi Dana  Bagi Hasil Pajak Daerah dan Retribusi Daerah Bagi Desa dan Alokasi Dana Desa Tahun Anggaran 2020'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_kepbup>
+{'peraturan': 'Penetapan Kawasan Taman Sumedang Tandang ( Taman Kota), Pasar Sandang, dan Pasar Inpres di Kelurahan Kota Kaler Kecamatan Sumedang Utara sebagai Kawasan Parkir Khusus'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_kepbup>
+{'peraturan': 'Penetapan Ruas Jalan Menurut Statusnya sebagai Jalan Kabupaten'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_kepbup>
+{'peraturan': 'Pembentukan Tim Reformasi Birokrasi di Lingkungan Pemerintah Kabupaten Sumedang Tahun 2018'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_kepbup>
+{'peraturan': 'Pembentukan Tim Terpadu Perlindungan Anak yang Berhadapan dengan Hukum'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_kepbup>
+{'peraturan': 'Pembentukan Tim Koordinasi dan Fasilitasi Penanganan Dampak Sosial dan Lingkungan Pembangunan Waduk Jatigede'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_kepbup>
+{'peraturan': 'Pembentukan Majelis Kode Etik Pegawai Negeri Sipil Tingkat Kabupaten Sumedang'}
+2020-02-28 07:00:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_kepbup>
+{'peraturan': 'Standar Biaya dan Standar Satuan Harga Kabupaten Sumedang Tahun Anggaran 2019'}
+2020-02-28 07:00:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.sumedangkab.go.id/index.php/front/aturan_perda> (referer: None)
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2020'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Badan Permusyawaratan Desa'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Rencana Pembangunan Jangka Menengah Daerah Kabupaten Sumedang Tahun 2018-2023'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perubahan Kedua Atas Peraturan Daerah Nomor 12 Tahun 2014 Tentang Penyertaan Modal Pemerintah Kabupaten Sumedang Pada Perseroan Terbatas Bank Pembangunan Daerah Jawa Barat Dan Banten, Tbk.'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perubahan Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2019'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Rencana Tata Ruang Koridor Jalan Tol Cileunyi - Sumedang Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Rencana UmumTata Ruang  Kawasan Perkotaan Jatinangor'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pelarangan Peredaran Minuman Beralkohol'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penghapusan dan Penggabungan Desa yang Terkena Dampak Pembangunan Waduk Jatigede '}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pelestarian Bangunan, Struktur, dan Kawasan Cagar Budaya'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyelenggaraan Administrasi Kependudukan '}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perusahaan Daerah Bank Perkreditan Rakyat Bank Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Badan Permusyawaratan Desa'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pelaksanaan Pemilihan Kepala Desa secara Serentak'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Tata Cara Pencalonan, Pemilihan, Pengangkatan, dan Pemberhentian Kepala Desa'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Prosedur Perencanaan dan Penganggaran Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyertaan Modal Pemerintah Kabupaten Sumedang pada Perusahaan Daerah Perkreditan Kecamatan Ujungjaya'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyertaan Modal Pemerintah Kabupaten Sumedang pada Perusahaan Daerah Perkreditan Kecamatan Paseh '}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyertaan Modal Pemerintah Kabupaten Sumedang pada Perseroan Terbatas Bank Pembangunan Daerah Jawa Barat dan Banten, Tbk '}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pembubaran 6 (enam) Perusahaan Daerah Bank Perkreditan Rakyat Dalam Likuidasi di Kabupaten Sumedang '}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pola Tarif Rumah Sakit Umum Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Rencana Induk Pembangunan Kepariwisataan Daerah Kabupaten Sumedang Tahun 2014-2025'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyelenggaraan Ketertiban Umum dan Ketenteraman Masyarakat'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perkembangan Kependudukan dan Pembangunan Keluarga di Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyelenggaraan Bantuan Hukum'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pengelolaan dan Pemberdayaan Pasar Tradisional serta Penataan Pusat Perbelanjaan dan Toko Modern'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pengelolaan Sampah Rumah Tangga dan Sampah Sejenis Sampah Rumah Tangga di Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perubahan atas Peraturan Daerah Kabupaten Sumedang Nomor 3 Tahun 2011 tentang Retribusi Jasa Umum'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pencegahan dan Penanggulangan Human Immunodeficiency Virus dan Acquired Immuno Deficiency Syndrome'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perlindungan dan Pengelolaan Lingkungan Hidup di Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perubahan atas Peraturan Daerah Kabupaten Sumedang Nomor 17 Tahun 2011 tentang Dana Cadangan'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyelenggaraan Kearsipan di Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pembentukan Produk Hukum Daerah'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pembentukan Perseroan Terbatas Kampung Makmur'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pedoman Pendirian dan Pengelolaan Badan Usaha Milik Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penataan Wilayah Kecamatan di Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyelenggaraan Ketenagakerjaan'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyelenggaraan Pendidikan'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pengarusutamaan Gender'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Kabupaten Layak Anak'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pengelolaan Barang Milik Daerah'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pencabutan Beberapa Peraturan Daerah'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perusahaan Umum Daerah Bank Perkreditan Rakyat Bank Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Uraian Tugas Jabatan Struktural pada Dinas Perumahan, Kawasan Permukiman dan Pertanahan'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perubahan Kedua Atas Peraturan Daerah Kabupaten Sumedang Nomor 5 Tahun 2011 Tentang Retribusi Perizinan Tertentu'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Anggaran Pendapatan Dan Belanja Daerah Tahun Anggaran 2017'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pembentukan dan Susunan Perangkat Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyertaan Modal Pemerintah Kabupaten Sumedang Pada Perusahaan Daerah Air Minum Tirta Medal Kabupaten Sumedang '}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perubahan Atas Peraturan Daerah Nomor 6 Tahun 2011 Tentang Perusahaan Daerah Air Minum Tirta Medal Kabupaten Sumedang '}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyertaan Modal Pemerintah Kabupaten Sumedang Pada Perseroan Terbatas Lembaga Keuangan Mikro Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyertaan Modal Pemerintah Kabupaten Sumedang Pada Perusahaan Daerah Bank Perkreditan Rakyat Bank Sumedang '}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perubahan Atas Peraturan Daerah Kabupaten Sumedang Nomor 12 Tahun 2014 Tentang Penyertaan Modal Pemerintah Kabupaten Sumedang Pada Perseroan Terbatas Bank Pembangunan Daerah Jawa Barat Dan Banten, Tbk'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Urusan Pemerintahan Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pengelolaan Zakat, Infak, dan Sedekah'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pembentukan Produk Hukum Daerah'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Hak Keuangan Dan Administratif Pimpinan Dan Anggota Dewan Perwakilan Rakyat Daerah'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perubahan Atas Peraturan Daerah Nomor 4 Tahun 2011 Tentang Retribusi Jasa Usaha'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perubahan Kedua Atas Peraturan Daerah Nomor 3 Tahun 2011 Tentang Retribusi Jasa Umum'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pengembangan, Penataan dan Pembinaan Pasar Rakyat, Pusat Perbelanjaan, dan Toko Swalayan. '}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Rencana Tata Ruang Wilayah Kabupaten Sumedang Tahun 2018-2038 '}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perubahan Kedua Atas Peraturan Daerah Nomor 8 Tahun 2018 Tentang Pajak Daerah '}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Anggaran Pendapatan Dan Belanja Daerah Tahun Anggaran 2019'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyertaan Modal Pemerintah Kabupaten Sumedang pada Perusahaan Umum Daerah Bank Perkreditan Rakyat Bank Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Fasilitasi Penyelenggaraan Ibadah Haji '}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Metrologi Legal'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perubahan Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2018'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pertanggungjawaban Pelaksanaan Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2017'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perubahan Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2015'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2015'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perubahan Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2017'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyelenggaraan Penanggulangan Bencana'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyelenggaraan Penanaman Modal di Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pola Tarif Rumah Sakit Umum Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pajak Hiburan'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Tata Cara Penghapusan Piutang Pajak Daerah dan Retribusi Daerah'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyelenggaraan Administrasi Kependudukan Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pembentukan, Penghapusan dan Penggabungan Kelurahan'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pembentukan Organisasi Perangkat Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pembentukan Lembaga Penyiaran Publik Lokal Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pedoman Pembentukan Lembaga Kemasyarakatan di Desa'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Badan Usaha Milik Desa'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pedoman Pembentukan, Penghapusan dan Penggabungan Desa'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perubahan Kedua Atas Peraturan Daerah Kabupaten Sumedang Nomor 4 Tahun 2004 tentang Kedudukan Protokoler dan Keuangan Pimpinan dan Anggota Dewan Perwakilan Rakyat Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Prosedur Perencanaan dan Penganggaran Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pencabutan Peraturan Daerah Kabupaten Sumedang Nomor 6 Tahun 2002 tentang Retribusi Pelayanan Ketenagakerjaan'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyidik Pegawai Negeri Sipil'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perusahaan Daerah Air Minum Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Bantuan Keuangan kepada Partai Politik yang Mempunyai Kursi di DPRD Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Tata Cara Pencalonan, Pemilihan, Pengangkatan dan Pemberhentian Kepala Desa'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pembentukan Badan Permusyawaratan Desa'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyelenggaraan Pendidikan di Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pengendalian Pengambilan Air Tanah'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Retribusi Pelayanan Penggandaan Dokumen Pengadaan Barang/Jasa'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Retribusi Izin Trayek'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Rencana Tata Ruang Wilayah Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pelayanan Izin Kebudayaan dan Usaha Kepariwisataan'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Usaha Pertambangan Bahan Galian Golongan C'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Retribusi Penjualan Produk Usaha Daerah'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pajak Restoran'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perubahan Pertama Peraturan Daerah Kabupaten Sumedang Nomor 8 Tahun 2000 tentang Retribusi Parkir di Tepi Jalan Umum'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pembentukan Badan Usaha Milik Daerah Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pembentukan Kecamatan'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Retribusi Pelayanan Administrasi Pengelolaan Kayu Milik'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Retribusi Izin Peruntukan Penggunaan Tanah'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Retribusi Rumah Potong Hewan'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Retribusi Pemeriksaan Alat Pemadam Kebakaran'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Retribusi Terminal'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Retribusi Pasar'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Retribusi Izin Mendirikan Bangunan'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pendirian dan Pengelolaan Pasar di Wilayah Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pelayanan Pemeriksaan Kesehatan Calon Haji di Wilayah Kabupaten Daerah Tingkat II Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pengaturan Beca di Kabupaten Daerah Tingkat II Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Rambu Lalu Lintas, Marka Jalan dan Alat Pemberi Isyarat Lalu Lintas di Kabupaten di Kabupaten Daerah Tingkat II Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Ketentuan-ketentuan Pemakaman di Kabupaten Daerah Tingkat II Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perubahan Pertama 1 Kabupaten Daerah Tingkat II Sumedang Nomor 2 Tahun 1985 tentang Lambang Daerah Kabupaten Daerah Tingkat II Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penggunaan/Pemakaian Lambang Daerah Kabupaten Daerah Tingkat II Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Lambang Daerah Kabupaten Daerah Tingkat II Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Organisasi Pemerintah Desa'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Kawasan Tanpa Rokok'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perubahan atas Peraturan Daerah Kabupaten Sumedang Nomor 5 Tahun 2011 tentang Retribusi Perizinan Tertentu'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Perubahan atas Peraturan Daerah Kabupaten Sumedang Nomor 8 Tahun 2010 tentang Pajak Daerah'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pengelolaan Barang Milik Daerah'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyertaan Modal Dalam Bentuk Tanah dan Bangunan Milik Pemerintah Kabupaten Sumedang kepada Perusahaan Daerah Bank Perkreditan Rakyat Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Lalu Lintas dan Angkutan Jalan di Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Rencana Tata Ruang Wilayah Kabupaten Sumedang Tahun 2011-2031'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Dana Cadangan'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pembentukan Desa-desa Baru Hasil Pemekaran Desa Tahun 2011 di Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Bangunan Gedung'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Pengelolaan Taman Hutan Raya Gunung Kunci dan Gunung Palasari'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyertaan Modal Pemerintah Kabupaten Sumedang kepada Perusahaan Daerah Bank Perkreditan Rakyat Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Penyertaan Modal Pemerintah Kabupaten Sumedang kepada Perusahaan Daerah Air Minum Tirta Medal Kabupaten Sumedang'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Retribusi Perizinan Tertentu'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Retribusi Jasa Usaha'}
+2020-02-28 07:00:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.sumedangkab.go.id/index.php/front/aturan_perda>
+{'peraturan': 'Dana Bagi Hasil Pajak Daerah dan Retribusi Daerah Bagi Desa dan Alokasi Dana Desa'}
+2020-02-28 07:00:47 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-02-28 07:00:47 [scrapy.extensions.feedexport] INFO: Stored csv feed (562 items) in: sumedangkab.csv
+2020-02-28 07:00:47 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 749,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 52157,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 3,
+ 'elapsed_time_seconds': 2.585383,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 2, 28, 0, 0, 47, 514232),
+ 'item_scraped_count': 562,
+ 'log_count/DEBUG': 565,
+ 'log_count/INFO': 11,
+ 'memusage/max': 52486144,
+ 'memusage/startup': 52486144,
+ 'response_received_count': 3,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2020, 2, 28, 0, 0, 44, 928849)}
+2020-02-28 07:00:47 [scrapy.core.engine] INFO: Spider closed (finished)

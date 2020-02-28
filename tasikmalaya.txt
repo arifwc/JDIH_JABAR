@@ -1,0 +1,312 @@
+2020-02-28 11:15:12 [scrapy.utils.log] INFO: Scrapy 1.8.0 started (bot: scrapybot)
+2020-02-28 11:15:12 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.6.9 (default, Nov  7 2019, 10:44:02) - [GCC 8.3.0], pyOpenSSL 19.1.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Linux-5.3.0-40-generic-x86_64-with-Ubuntu-18.04-bionic
+2020-02-28 11:15:12 [scrapy.crawler] INFO: Overridden settings: {'FEED_FORMAT': 'csv', 'FEED_URI': 'tasikmalaya.csv', 'LOG_FILE': 'tasikmalaya.txt', 'SPIDER_LOADER_WARN_ONLY': True}
+2020-02-28 11:15:12 [scrapy.extensions.telnet] INFO: Telnet Password: 467beca1205a4630
+2020-02-28 11:15:12 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2020-02-28 11:15:12 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-02-28 11:15:12 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-02-28 11:15:12 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2020-02-28 11:15:12 [scrapy.core.engine] INFO: Spider opened
+2020-02-28 11:15:12 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-02-28 11:15:12 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-02-28 11:15:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81> (referer: None)
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENYELENGGARAAN KESEHATAN REPRODUKSI DI KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['BIAYA PEMUNGUTAN PAJAK DAERAH']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['DANA PENINGKATAN PELAYANAN ATAS PEMUNGUTAN RETRIBUSI DAERAH']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PEDOMAN PEMBENTUKAN, PENGHAPUSAN DAN PENGGABUNGAN DESA SERTA PERUBAHAN STATUS DESA MENJADI KELURAHAN']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENGELOLAAN LINGKUNGAN HIDUP DI KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PEDOMAN SUSUNAN ORGANISASI DAN TATA KERJA PEMERINTAH DESA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN KEDUA ATAS PERATURAN DAERAH KABUPATEN TASIKMALAYA', 'NOMOR 3 TAHUN 2002 TENTANG KETENTUAN TETAP PELAYANAN AIR BERSIH', 'PADA PERUSAHAAN DAERAH AIR MINUM KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN TASIKMALAYA', 'NOMOR 2 TAHUN 2006 TENTANG RETRIBUSI PELAYANAN BIDANG KETENAGAKERJAAN']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN TASIKMALAYA', 'TAHUN ANGGARAN 2009']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RETRIBUSI TEMPAT PENGINAPAN YANG DIMILIKI/DIKELOLA OLEH PEMERINTAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN TASIKMALAYA TAHUN ANGGARAN 2009']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RETRIBUSI PELAYANAN PEMERIKSAAN KESEHATAN HEWAN / IKAN']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN KEDUA ATAS PERATURAN DAERAH KABUPATEN TASIKMALAYA NOMOR 13 TAHUN 2004 TENTANG KEDUDUKAN PROTOKOLER DAN KEUANGAN PIMPINAN DAN ANGGOTA DEWAN PERWAKILAN RAKYAT DAERAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN TASIKMALAYA TAHUN ANGGARAN 2007']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN KETIGA ATAS PERATURAN DAERAH KABUPATEN TASIKMALAYA NOMOR 13 TAHUN 2004 TENTANG KEDUDUKAN PROTOKOLER DAN KEUANGAN PIMPINAN DAN ANGGOTA DEWAN PERWAKILAN RAKYAT DAERAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENCEGAHAN DAN PENANGGULANGAN HUMAN IMMUNODEFICIENCY VIRUS (HIV) / ACQUIRED IMMUNO DEFICIENCY SYNDROME (AIDS)']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENCABUTAN ATAS PERATURAN DAERAH KABUPATEN TASIKMALAYA NOMOR 4 TAHUN 2003 TENTANG RETRIBUSI PELAYANAN BIDANG KOPERASI DAN USAHA KECIL MENENGAH']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENYERTAAN MODAL (INVESTASI) PEMERINTAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERTANGGUNGJAWABAN PELAKSANAAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN TASIKMALAYA TAHUN ANGGARAN 2006']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['TATA USAHA HASIL HUTAN / RAKYAT DI KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENYERTAAN MODAL (INVESTASI) PEMERINTAH KABUPATEN TASIKMALAYA PADA PT. BANK PEMBANGUNAN JAWA BARAT']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENYERTAAN MODAL (INVESTASI) PEMERINTAH KABUPATEN TASIKMALAYA PADA PD. BPR KABUPATEN TASIKMALAYA KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENYERTAAN MODAL (INVESTASI) PEMERINTAH KABUPATEN TASIKMALAYA PADA PDAM TIRTA SUKAPURA KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENYERTAAN MODAL (INVESTASI) PEMERINTAH KABUPATEN TASIKMALAYA PADA PDUP KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['KEUANGAN DESA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERANGKAT DESA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN DAERAH TINGKAT II TASIKMALAYA NOMOR 1 TAHUN 1999 TENTANG PAJAK PENERANGAN JALAN']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN TASIKMALAYA NOMOR 11 TAHUN 2002 TENTANG PAJAK HOTEL']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN DAERAH TINGKAT II TASIKMALAYA NOMOR 16 TAHUN 1998 TENTANG PAJAK REKLAME']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN DAERAH TINGKAT II TASIKMALAYA NOMOR 18 TAHUN 1998 TENTANG PAJAK HIBURAN']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PAJAK PENGAMBILAN BAHAN GALIAN GOLONGAN C']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN TASIKMALAYA TAHUN ANGGARAN 2007']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RETRIBUSI PELAYANAN KESEHATAN PADA PUSKESMAS DAN SARANA PELAYANAN KESEHATAN DINAS KESEHATAN KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['TATA CARA PENDIRIAN, PENGAWASAN, PENGENDALIAN DAN PENYELENGGARAAN MENARA TELEKOMUNIKASI DI KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RETRIBUSI PARKIR']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENGELOLAAN PERTAMBANGAN UMUM']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RETRIBUSI PELAYANAN JASA PENYELENGGARAAN LALU LINTAS DAN ANGKUTAN JALAN DI KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['BADAN PERMUSYAWARATAN DESA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['TATA CARA PENCALONAN, PEMILIHAN, PENGANGKATAN DAN PEMBERHENTIAN KEPALA DESA DAN PENGANGKATAN PENJABAT KEPALA DESA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['SATUAN POLISI PAMONG PRAJA PEMERINTAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERTANGGUNGJAWABAN PELAKSANAAN  ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN TASIKMALAYA  TAHUN ANGGARAN 2005']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN TASIKMALAYA  TAHUN ANGGARAN 2006']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENYELENGGARAAN LALU LINTAS DAN ANGKUTAN JALAN']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RETRIBUSI PASAR']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENGELOLAAN PASAR IKAN DI KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RETRIBUSI PENGGUNAAN FASILITAS LATIHAN KERJA DI LINGKUNGAN UPTD BALAI LATIHAN KERJA (BLK) MILIK PEMERINTAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENGELOLAAN PASAR HEWAN DI KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RETRIBUSI PELAYANAN PENDAFTARAN PENDUDUK DAN PENCATATAN SIPIL DI KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['BANTUAN KEUANGAN KEPADA PARTAI POLITIK DI KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RETRIBUSI PELAYANAN BIDANG KETENAGAKERJAAN']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN TASIKMALAYA NOMOR 13 TAHUN 2004 TENTANG KEDUDUKAN PROTOKOLER DAN KEUANGAN PIMPINAN DAN ANGGOTA DEWAN PERWAKILAN RAKYAT DAERAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN TASIKMALAYA TAHUN ANGGARAN 2006']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENCABUTAN ATAS PERATURAN DAERAH KABUPATEN TASIKMALAYA NOMOR 31 TAHUN 2000 TENTANG RETRIBUSI PELAYANAN PEMBUATAN DOKUMEN LELANG']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RENCANA STRATEGIS TRANSISI KABUPATEN TASIKMALAYA TAHUN 2006']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RENCANA DETAIL TATA RUANG IBUKOTA KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['TATA CARA DAN TEKNIK PENYUSUNAN PRODUK HUKUM DAERAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN TASIKMALAYA TAHUN ANGGARAN 2005']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PEMBENTUKAN DESA TOBLONGAN KECAMATAN BOJONGASIH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERTANGGUNGJAWABAN PELAKSANAAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN TASIKMALAYA TAHUN ANGGARAN 2004']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENOMORAN RUMAH DAN ATAU BANGUNAN LAINNYA DALAM WILAYAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PEMBENTUKAN DESA MANDALAHURIP KECAMATAN JATIWARAS KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PEMBENTUKAN DESA SUKAHURIP KECAMATAN CIPATUJAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RETRIBUSI TEMPAT REKREASI']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['IZIN USAHA PARIWISATA DAN BUDAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN PERTAMA PERATURAN DAERAH KABUPATEN TASIKMALAYA NOMOR 8 TAHUN 2003 TENTANG PERUSAHAAN DAERAH BANK PERKREDITAN RAKYAT KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RENCANA TATA RUANG WILAYAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['ANGGARAN PENDAPATAN DAN BELANJA DAERAH  KABUPATEN TASIKMALAYA TAHUN ANGGARAN 2005']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['KEDUDUKAN PROTOKOLER DAN KEUANGAN PIMPINAN DAN ANGGOTA DEWAN PERWAKILAN RAKYAT DAERAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN PERTAMA PERATURAN DAERAH KABUPATEN TASIKMALAYA NOMOR 3 TAHUN 2002 TENTANG KETENTUAN TETAP PELAYANAN AIR BERSIH PADA PERUSAHAAN DAERAH AIR MINUM KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN PERTAMA PERATURAN DAERAH KABUPATEN TASIKMALAYA NOMOR 32 TAHUN 2002 TENTANG PENGELOLAAN PERTAMBANGAN UMUM']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENCABUTAN PERATURAN DAERAH KABUPATEN TASIKMALAYA NOMOR 6 TAHUN 2002 TENTANG IURAN WAJIB ATAS USAHA KOMODITAS PERKEBUNAN']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['ORGANISASI KECAMATAN DI LINGKUNGAN PEMERINTAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PEMBENTUKAN ORGANISASI BADAN DAN KANTOR DAERAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['SEKRETARIAT DAERAH KABUPATEN TASIKMALAYA DAN SEKRETARIAT DEWAN PERWAKILAN RAKYAT DAERAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PEMBENTUKAN ORGANISASI DINAS DAERAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENGENDALIAN DAN PENGAWASAN MINUMAN KERAS DI WILAYAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN TASIKMALAYA TAHUN ANGGARAN 2004']}
+2020-02-28 11:15:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERHITUNGAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN TASIKMALAYA TAHUN ANGGARAN 2003']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['ANGGARAN PENDAPATAN DAN BELANJA DAERAH  KABUPATEN TASIKMALAYA TAHUN ANGGARAN 2004']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PEMBENTUKAN ORGANISASI DAN TATA KERJA KANTOR KELUARGA BERENCANA DAN PEMBANGUNAN KELUARGA SEJAHTERA KABUPTEN TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['POKOK-POKOK PENGELOLAAN KEUANGAN DAERAH']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['KEWENANGAN KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN KEDUA PERATURAN DAERAH KABUPATEN TASIKMALAYA  NOMOR 03 TAHUN 2001 TENTANG RENCANA STRATEGIS  KABUPATEN TASIKMALAYA TAHUN 2001-2005']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN ANGGARAN PENDAPATAN DAN BELANJA  DAERAH KABUPATEN TASIKMALAYA TAHUN ANGGARAN 2003']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENGELOLAAN IRIGASI DI KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENDIRIAN PERUSAHAAN DAERAH USAHA PERTAMBANGAN KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUSAHAAN DAERAH BANK PERKREDITAN RAKYAT KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENYELENGGARAAN KEARSIPAN DI LINGKUNGAN PEMERINTAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN PERTAMA PERATURAN DAERAH KABUPATEN TASIKMALAYA NOMOR 13 TAHUN 2000 TENTANG RETRIBUSI PEMAKAIAN KEKAYAAN DAERAH']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['KONTRIBUSI ATAS USAHA KOMODITAS BUAH MANGGIS']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RETRIBUSI PELAYANAN BIDANG KOPERASI DAN USAHA KECIL MENENGAH']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RETRIBUSI PELAYANAN PENERBITAN KARTU TANDA PENDUDUK']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['SISA PERHITUNGAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH TAHUN ANGGARAN 2002']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN TASIKMALAYA TAHUN ANGGARAN 2003']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['KETENTUAN TETAP PELAYANAN AIR BERSIH PADA PERUSAHAAN DAERAH AIR MINUM KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENYIDIK PEGAWAI NEGERI SIPIL']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN KEDUA KALI PERATURAN DAERAH KABUPATEN DAERAH TINGKAT II TASIKMALAYA NOMOR 7 TAHUN 1975 TENTANG PENDIRIAN PERUSAHAAN DAERAH AIR MINUM KABUPATEN DAERAH TINGKAT II TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['IZIN USAHA INDUSTRI DAN IZIN PERLUASAN']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['IZIN USAHA JASA KONSTRUKSI']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENGELOLAAN PERTAMBANGAN UMUM']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN PERTAMA PERATURAN DAERAH KABUPATEN TASIKMALAYA NOMOR 03 TAHUN 2001 TENTANG RENCANA STRATEGIS KABUPATEN TASIKMALAYA TAHUN 2001 - 2005']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN PERTAMA PERATURAN DAERAH KABUPATEN TASIKMALAYA NO. PER : 9/I/DPRD/1971 TENTANG LAMBANG DAERAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['KEPENGURUSAN PERUSAHAAN DAERAH AIR MINUM KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['KEPEGAWAIAN PERUSAHAAN DAERAH AIR MINUM KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['BIAYA LEGES']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['SISA PERHITUNGAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH TAHUN ANGGARAN 2001']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PERUBAHAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN TASIKMALAYA TAHUN ANGGARAN 2002']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['IURAN WAJIB ATAS USAHA KOMODITAS PERKEBUNAN']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PAJAK HOTEL']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RETRIBUSI RUMAH POTONG HEWAN']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RETRIBUSI IJIN TEMPAT USAHA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['IZIN PERUBAHAN PENGGUNAAN TANAH DAN RETRIBUSI PENDAFTARAN HAK ATAS TANAH DI KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PAJAK PARKIR']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENCABUTAN PERATURAN DAERAH KABUPATEN TASIKMALAYA NOMOR 32 TAHUN 2000 TENTANG RETRIBUSI PEMBERIAN IJIN DAN BIAYA  PEMBONGKARAN REKLAME DALAM WILAYAH KABUPATEN TASIKMALAYA DAN  PERATURAN DAERAH KABUPATEN TASIKMALAYA NOMOR 34 TAHUN 2000 TENTANG RETRIBUSI PENGGUNAAN BON KONTAN PERUSAHAAN/TOKO DALAM WILAYAH KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RETRIBUSI PELAYANAN BIDANG KETENAGAKERJAAN']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['RETRIBUSI PENGGANTIAN BIAYA CETAK KARTU KELUARGA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PEMBENTUKAN DESA GIRIMUKTI KECAMATAN BOJONGGAMBIR KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PEMBENTUKAN DESA KERTARAHAYU KECAMATAN JATIWARAS KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PAJAK RESTORAN']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PEMBENTUKAN DESA MERKARLAKSANA KECAMATAN CULAMEGA KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN TASIKMALAYA TAHUN ANGGARAN 2002']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PEMBENTUKAN DESA PAGERALAM KECAMATAN TARAJU KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PEMBENTUKAN DESA PURWARAHARJA KECAMATAN BOJONGGAMBIR KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['KETENTUAN DAN TATA CARA PEMBERIAN SURAT IZIN USAHA PERDAGANGAN']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['KETENTUAN PENYELENGGARAAN WAJIB DAFTAR PERUSAHAAN']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['PENATAAN DAN PEMBINAAN GUDANG DAN RUANGAN']}
+2020-02-28 11:15:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81>
+{'peraturan': ['KETENTUAN KHUSUS DAN PENETAPAN RETRIBUSI PELAYANAN KESEHATAN PADA RUMAH SAKIT UMUM DAERAH KELAS B NON PENDIDIKAN KABUPATEN TASIKMALAYA']}
+2020-02-28 11:15:14 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-02-28 11:15:14 [scrapy.extensions.feedexport] INFO: Stored csv feed (127 items) in: tasikmalaya.csv
+2020-02-28 11:15:14 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 263,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 101108,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.445494,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 2, 28, 4, 15, 14, 16026),
+ 'item_scraped_count': 127,
+ 'log_count/DEBUG': 128,
+ 'log_count/INFO': 11,
+ 'memusage/max': 52346880,
+ 'memusage/startup': 52346880,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2020, 2, 28, 4, 15, 12, 570532)}
+2020-02-28 11:15:14 [scrapy.core.engine] INFO: Spider closed (finished)

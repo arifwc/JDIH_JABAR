@@ -1,0 +1,27 @@
+http://jdih.bekasikota.go.id -
+http://jdih.depok.go.id -
+http://jdih.kotabogor.go.id -
+http://jdih.bogorkab.go.id -
+http://jdih.bekasikab.go.id / wrapper wrapper gajelas
+http://jdih.karawangkab.go.id -
+http://jdih.sukabumikota.go.id - kurang keputusan walikota
+http://jdih.sukabumikab.go.id -
+http://jdih.cianjurkab.go.id / ajax, susah nanti aja
+http://jdih.purwakartakab.go.id - 
+http://jdih.bandungbaratkab.go.id - 
+http://jdih.cimahi.go.id / server not found
+http://jdih.bandung.go.id / ajax, susah nanti aja
+http://jdih.subang.go.id / 403 Forbidden
+http://jdih.bandungkab.go.id / scrape using json extractor
+http://jdih.sumedangkab.go.id -
+http://jdih.garutkab.go.id -
+http://jdih.majalengkakab.go.id -
+http://jdih.indramayukab.go.id -
+http://jdih.cirebonkab.go.id -
+http://jdih.banjarkota.go.id 
+http://jdih.ciamiskab.go.id
+http://jdih.tasikmalayakab.go.id
+http://jdih.kuningankab.go.id
+http://jdih.tasikmalayakota.go.id
+http://jdih.pangandarankab.go.id
+http://jdih.cirebonkota.go.id
