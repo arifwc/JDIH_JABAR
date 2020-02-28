@@ -1,13 +1,14 @@
 from scrapy import Spider, Request
 import re
 
-class TasikmalayaKabSpider(Spider):
-    name="TasikmalayaKab"
+class TasikmalayaKotaSpider(Spider):
+    name="TasikmalayaKota"
     
-    start_urls = ['http://jdih.tasikmalayakab.go.id/?page=peraturan&act=listperaturan&id=81']
+    start_urls = ['https://jdih.tasikmalayakota.go.id/home/dokumen/perwal',
+                  'https://jdih.tasikmalayakota.go.id/home/dokumen/perda']
     
     def parse(self, response):
-        for row in response.css('td.subjek'):
+        for row in response.css('div>bold'):
             yield{
                 'peraturan':re.findall(r"[^\s*].*[^\s*]",str(row.css('::text').get()))
                 }

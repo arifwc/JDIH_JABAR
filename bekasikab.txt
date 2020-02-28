@@ -1,0 +1,1520 @@
+2020-02-28 23:12:34 [scrapy.utils.log] INFO: Scrapy 1.8.0 started (bot: scrapybot)
+2020-02-28 23:12:34 [scrapy.utils.log] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.6.9 (default, Nov  7 2019, 10:44:02) - [GCC 8.3.0], pyOpenSSL 19.1.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Linux-5.3.0-40-generic-x86_64-with-Ubuntu-18.04-bionic
+2020-02-28 23:12:34 [scrapy.crawler] INFO: Overridden settings: {'FEED_FORMAT': 'csv', 'FEED_URI': 'bekasikab.csv', 'LOG_FILE': 'bekasikab.txt', 'SPIDER_LOADER_WARN_ONLY': True}
+2020-02-28 23:12:34 [scrapy.extensions.telnet] INFO: Telnet Password: f99f0524d9c390ef
+2020-02-28 23:12:34 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2020-02-28 23:12:34 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-02-28 23:12:34 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-02-28 23:12:34 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2020-02-28 23:12:34 [scrapy.core.engine] INFO: Spider opened
+2020-02-28 23:12:34 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-02-28 23:12:34 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-02-28 23:12:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-5.html> (referer: None)
+2020-02-28 23:12:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-3.html> (referer: None)
+2020-02-28 23:12:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-2.html> (referer: None)
+2020-02-28 23:12:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-8.html> (referer: None)
+2020-02-28 23:12:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-6.html> (referer: None)
+2020-02-28 23:12:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-4.html> (referer: None)
+2020-02-28 23:12:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-7.html> (referer: None)
+2020-02-28 23:12:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-1.html> (referer: None)
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-5.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEDOMAN PELAPORAN PERTANGGUNG JAWABAN PENYELENGGARAAN PEMERINTAH DESA']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-5.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEDOMAN TEKNIS PENGELOLAAN TANAH KAS DESA DI KABUPATEN BEKASI']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-3.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG BANTUAN HUKUM']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-3.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PENJABARAN PERUBAHAN ANGGARAN PENDAPATAN DAN BELANJA TAHUN ANGGARAN 2010']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-3.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PENJABARAN PERTANGGUNG JAWABAN PELAKSANAAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN BEKASI TAHUN ANGGARAN 2009']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-5.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEDOMAN PEMBENTUKAN DAN MEKANISME PENYUSUNAN PERATURAN DESA']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-5.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEMBENTUKAN UNIT PELAKSANA TEKNIS BADAN (UPTB) LABORATORIUM LINGKUNGAN PADA BADAN PENGENDALIAN LINGKUNGAN HIDUP KABUPATEN BEKASI']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-5.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PERUBAHAN PERATURAN BUPATI BEKASI NOMOR 18 TAHUN 2009 TENTANG PENJABARAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH TAHUN ANGGARAN 2010']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-5.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG MEKANISME MUTASI PEGAWAI NEGERI SIPIL ANTAR INSTANSI PADA PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-3.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG RENCANA DETAIL TATA RUANG ZONA INDUSTRI PADA BLOK TJ-006,TJ-007,TJ-008,BB-006,BB-007 DI KECAMATAN BABELAN DAN KECAMATAN TARUMAJAYA KABUPATEN BEKASI']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-3.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEDOMAN DAN PEMBANGUNAN MENARA TELEKOMUNIKASI BERSAMA']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-2.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG INSENTIF PEMUNGUTAN PAJAK DAERAH']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-2.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PERUBAHAN KEEMPAT PERATURAN BUPATI BEKASI NOMOR 3.A TAHUN 2006 TENTANG PETUNJUK PELAKSANAAN PERATURAN DAERAH KABUPATEN BEKASI NOMOR 3 TAHUN 2006 TENTANG KEDUDUKAN PROTOKOLER D']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-2.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PENJABARAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH TAHUN ANGGARAN 2011']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-8.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG  ORGANISASI DAN TATA KERJA DINAS KOMUNIKASI DAN INFORMATIKA']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-8.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA DINAS KEBERSIHAN, PERTAMANAN DAN PEMADAM KEBAKARAN']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-6.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PENYELENGGARAAN PERIZINAN, NON PERIZINAN DAN PELIMPAHAN SEBAGIAN KEWENANGAN UNTUK MENANGANI SEBAGIAN URUSAN OTONOMI DAERAH DI KABUPATEN BEKASI']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-6.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG TATA CARA PERMOHONAN PERIZINAN PENGENDALIAN PEMANFAATAN RUANG DI KABUPATEN BEKASI']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-6.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEMBERIAN PENGHARGAAN TINGKAT KEBERHASILAN KECAMATAN DAN KELURAHAN DALAM PEMUNGUTAN DAN PENGELOLAAN PAJAK BUMI DAN BANGUNAN']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-6.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG TATA CARA PEMEBERIAN DAN PERTANGGUNG JAWABAN HIBAH, BANTUAN SOSIAL  DAN BANTUAN KEUANGAN']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-4.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG RENCANA KERJA PEMERINTAH DAERAH KABUPATEN BEKASI TAHUN 2011']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-4.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG RENCANA KERJA PEMERINTAH DAERAH KABUPATEN BEKASI TAHUN 2011']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-5.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-5.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-5.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-3.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PERUBAHAN KEDUA ATAS LAMPIRAN PERATURAN BUPATI BEKASI NOMOR 16 TAHUN 2006 TENTANG PETUNJUK TEKNIS PENGADAAN BARANG DAN JASA DI LINGKUNGAN PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-3.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-3.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-3.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-7.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA KANTOR ARSIP DAN PERPUSTAKAAN DAERAH']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-7.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA KANTOR KESATUAN BANGSA POLITIK DAN PERLINDUNGAN MASYARAKAT']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-7.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA SATUAN POLISI PAMONG PRAJA']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-2.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PERUBAHAN PERATURAN BUPATI BEKASI NOMOR 25 TAHUN 2010 TENTANG PENJABARAN PERUBAHAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH TAHUN ANGGARAN 2010']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-8.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA DINAS PETERNAKAN, PERIKANAN DAN KELAUTAN']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-8.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA DINAS PERTANIAN PERKEBUNAN DAN KEHUTANAN']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-8.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA DINAS PENDAPATAN, PENGELOLAAN KEUANGAN DAN ASET']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-1.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PERUBAHAN ATAS PERATURAN BUPATI BEKASI NOMOR 19 TAHUN 2009 TENTANG ORGANISASI DAN TATA KERJA SEKRETARIAT DAERAH']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-1.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PERUBAHAN ATAS PERATURAN BUPATI BEKASI NOMOR 28 TAHUN 2009 TENTANG ORAGANISASI DAN TATA KERJA DINAS BINA MARGA DAN PENGELOLAAN SUMBER DAYA AIR']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-1.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PERUBAHAN ATAS PERATURAN BUPATI BEKASI NOMOR 43 TAHUN 2009 TENTANG ORGANISASI DAN TATA KERJA INSPEKTORAT DAERAH']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-1.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PERUBAHAN ATAS PERATURAN BUPATI BEKASI NOMOR 38 TAHUN 2009 TENTANG ORGANISASI DAN TATA KERJA BADAN PENGENDALIAN LINGKUNGAN HIDUP']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-6.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA DINAS PARIWISATA, BUDAYA, PEMUDA DAN OLAHRAGA']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-6.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA RUMAH SAKIT DAERAH']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-6.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-6.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-6.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-4.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEMBENTUKAN UNIT PELAKSANA TEKNIS DINAS KEBERSIHAN PADA DINAS KEBERSIHAN, PERTAMANAN DAN PEMADAM KEBAKARAN KABUPATEN BEKASI']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-4.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEDOMAN PEMBENTUKAN RUKUN TETANGGA (RT) DAN RUKUN WARGA (RW) DI KABUPATEN BEKASI']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-4.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEDOMAN PENYUSUNAN ANGGARAN PENDAPATAN BELANJA DESA DI KABUPATEN BEKASI']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-4.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEDOMAN KEDUDUKAN KEUANGAN KEPALA DESA DAN PERANGKAT DESA']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-4.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-4.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-7.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA BADAN PELAYANAN PERIZINAN TERPADU (BPPT)']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-7.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA BADAN PELAKSANA PENYULUHAN PERTANIAN, PETERNAKAN, KEHUTANAN DAN KETAHANAN PANGAN']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-2.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PETUNJUK TEKNIS PENGADAAN BARANG JASA DI LINGKUNGAN PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-2.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PENYULUHAN HUKUM']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-2.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-2.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-2.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-8.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA DINAS PERINDUSTRIAN, PERDAGANGAN, KOPERASI DAN USAHA MIKRO KECIL DAN MENENGAH']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-8.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-8.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-8.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-1.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEDOMAN PENYUSUNAN STANDAR OPERASIONAL PROSEDUR ADMINISTRASI PEMERINTAHAN DI LINGKUNGAN PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-1.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG TATA NASKAH DINAS DILINGKUNGAN PEMERINTAH DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-1.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-1.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-1.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-4.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-7.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA BADAN PERENCANAAN PEMBANGUNAN DAERAH']}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-7.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-7.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-7.html>
+{'peraturan': []}
+2020-02-28 23:12:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-11.html> (referer: None)
+2020-02-28 23:12:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-13.html> (referer: None)
+2020-02-28 23:12:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-12.html> (referer: None)
+2020-02-28 23:12:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-9.html> (referer: None)
+2020-02-28 23:12:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-14.html> (referer: None)
+2020-02-28 23:12:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-10.html> (referer: None)
+2020-02-28 23:12:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-16.html> (referer: None)
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-11.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PENJABARAN PERUBAHAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH TAHUN ANGGARAN 2007']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-11.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG  MEKANISME PENYUSUNAN PRODUK HUKUM DAERAH DI LINGKUNGAN PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-11.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG TATA CARA PENERTIBAN IZIN PENGELOLAAN LIMBAH PADAT BUKAN BERASAL DARI BAHAN BERBAHAYA DAN BERACUN (NON-B3) YANG BERNILAI EKONOMIS']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-11.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG KRITERIA PENILAIAN PEMBERIAN PENGHARGAAN TINGKAT KEBERSIHASILAN KECAMATAN DAN DESA DALAM PEMUNGUTAN DAN PENGELOLAAN ADMINISTRASI PAJAK BUMI DAN BANGUNAN']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-13.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PERUBAHAN ATAS LAMPIRAN PERATURAN BUPATI BEKASI NOMOR 16 TAHUN 2006 TENTANG PETUNJUK TEKNIS PENGADAAN BARANG/JASA DI LINGKUNGAN PEMERINTAH KABUPATEN BEKASI TAHUN ANGGARAN 2007']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-13.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PEMBENTUKAN TIM TEKNIS KEGIATAN PENYUSUNAN PERATURAN BUPATI JADWAL RETENSI ARSIP (JRA) TAHUN ANGGARAN 2018']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-13.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG RUMAH SUSUN DI KABUPATEN DAERAH TINGKAT II BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-13.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG KEWAJIBAN PENYEDIAAN PRASARANA LINGKUNGAN, UTILITAS UMUM DAN FASILITAS SOSIAL, BAGI PERUSAHAAN PEMBANGUNAN PERUMAHAN DI WILAYAH KABUPATEN DAERAH TINGKAT II BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-11.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG TATA CARA PENERBITAN IZIN PENYEDOTAN KAKUS']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-11.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG RENCANA KERJA PEMERINTAH DAERAH (RKPD) KABUPATEN BEKASI TAHUN 2008']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-11.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-11.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-11.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-12.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PERUBAHAN ATAS LAMPIRAN I HURUF O PERATURAN BUPATI BEKASI NOMOR 16 TAHUN 2005 TENTANG TATA NASKAH DINAS DI LINGKUNGAN PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-12.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PERUBAHAN ATAS PERATURAN BUPATI BEKASI NOMOR 3A TAHUN 2006 TENTANG PETUNJUK PELAKSANAAN PERATURAN DAERAH KABUPATEN BEKASI TENTANG KEDUDUKAN PROTOKOLER DAN KEUANGAN PIMPINAN DA']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-13.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PAJAK REKLAME']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-13.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA DINAS PERINDUSTRIAN KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-13.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-13.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-13.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-9.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA DINAS PERHUBUNGAN']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-9.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA DINAS KEPENDUDUKAN DAN PENCATATAN SIPIL']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-9.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA DINAS PENDIDIKAN']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-9.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA SEKRETARIAT DEWAN PERWAKILAN RAKYAT']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-9.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA SEKRETARIAT DAERAH']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-14.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA BADAN PERENCANAAN PEMBANGUNAN DAERAH KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-14.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN SUKAWANGI KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-12.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN BEKASI NOMOR 7   TAHUN 2009 TENTANG ORGANISASI PERANGKAT DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-12.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEMBUATAN SUMUR RESAPAN DI KABUPATEN BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-20.html> (referer: None)
+2020-02-28 23:12:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-15.html> (referer: None)
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-10.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PAKAIAN DINAS PEGAWAI NEGERI SIPIL DILINGKUNGAN KABUPATEN BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-10.html>
+{'peraturan': ['PERATURAN BUPATI  TENTANG PENATAAN DAN PEMBANGUNAN MENARA TELEKOMUNIKASI BERSAMA']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-10.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG KRITERIA PENILAIAN PEMBERIAN PENGHARGAAN TINGKAT KEBERHASILAN KECAMATAN DAN KELURAHAN/DESA DALAM PEMUNGUTAN DAN PENGELOLAAN ADMINISTRASI PAJAK BUMI DAN BANGUNAN TAHUN 2008']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-16.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA RUMAH SAKIT UMUM DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-16.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN TARUMAJAYA KABUPATEN BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-9.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PENYELENGGARAAN PERIZINAN DAN PELIMPAHAN SEBAGIAN KEWENANGAN UNTUK MENANGANI SEBAGIAN URUSAN OTONOMI DAERAH DI KABUPATEN BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-9.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-9.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-9.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-14.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN TAMBUN SELATAN']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-14.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN  PEBAYURAN KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-14.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN SUKATANI KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-12.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PERUBAHAN ATAS PERATURAN BUPATI BEKASI NOMOR 8 TAHUN 2006 TENTANG MEKANISME PELAPORAN PAJAK HOTEL,PAJAK RESTORAN DAN PAJAK HIBURAN']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-12.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG LARANGAN PEMELIHARAAN, PEREDARAN DAN PENGENDALIAN UNGGAS DI WILAYAH KABUPATEN BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-12.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-18.html> (referer: None)
+2020-02-28 23:12:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-21.html> (referer: None)
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-10.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ORGANISASI DAN TATA KERJA DINAS SOSIAL']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-10.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG MINIMARKET']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-10.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PERUBAHAN ATAS PERATURAN BUPATI NOMOR 10 TAHUN 2007 TENTANG KRITERIA PENILAIAN PEMBERIAN PENGHARGAAN TINGKAT KEBERHASILAN KECAMATAN DAN DESA DALAM PEMUNNGUTAN DAN PENGELOLAAN']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-10.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-10.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-16.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG KABUPATEN LAYAK ANAK']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-14.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN CABANGBUNGIN KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-14.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-14.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-14.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-12.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-12.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-23.html> (referer: None)
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-10.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-16.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PEMBERDAYAAN DAN PENGEMBANGAN USAHA MIKRO']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-16.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN TAMBUN UTARA KABUPATEN BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-16.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN  SETU KABUPATEN BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-16.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-16.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-16.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-20.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN CIKARANG SELATAN KABUPATEN BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-20.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN CIBARUSAH KABUPATEN BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-15.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN CIKARANG PUSAT KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-15.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN SERANG BARU KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-15.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA DINAS KEPENDUDUKAN DAN PENCATATAN SIPIL KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-20.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA DINAS PEMADAM KEBAKARAN KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-20.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA DINAS LINGKUNGAN HIDUP KABUPATEN BEKASI TAHUN 2018']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-15.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA DINAS PEMBERDAYAAN MASYARAKAT DAN DESA KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-15.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA DINAS PERDAGANGAN KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-20.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN KEDUA ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-794-BPKD 2017 TENTANG PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAM']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-20.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA DINAS PARIWISATA KABUPATEN BEKASI TAHUN 2018']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-20.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-20.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-20.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-15.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA BADAN KEPEGAWAIAN PENDIDIKAN DAN PELATIHAN DAERAH KABUPATEN BEKASI TAHUN 201']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-15.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-15.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-15.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-18.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA BADAN PENGELOLAAN KEUANGAN DAERAH KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-18.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA BADAN PENDAPATAN DAERAH KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-18.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA BADAN KESATUAN BANGSA DAN POLITIK KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-18.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA DINAS KOMUNIKASI INFORMATIKA PERSANDIAN DAN STATISTIK KABUPATEN BEKASI TAHUN']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-18.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA DINAS KESEHATAN KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-21.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN TAMBELANG KABUPATEN BEKASI TAHUN 2018']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-21.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN CIKARANG BARAT KABUPATEN BEKASI TAHUN 2018']}
+2020-02-28 23:12:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-17.html> (referer: None)
+2020-02-28 23:12:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-25.html> (referer: None)
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-18.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA DINAS PERIKANAN DAN KELAUTAN KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-18.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-18.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-18.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-21.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN KUASA PENGGUNA BARANG DAN PENGURUS BARANG PEMBANTU PADA UPTD PUSKESMAS KABUPATEN BEKASI TAHUN 2018']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-21.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN CIKARANG TIMUR KABUPATEN BEKASI TAHUN 2018']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-21.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN KEDUA ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-782-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG ,PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-23.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PERUBAHAN KEDUA TENTANG  LARANGAN PERBUATAN TUNA SUSILA']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-23.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG KETENTUAN PENCEGAHAN DAN PENANGGULANGAN BAHAYA KEBAKARAN']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-21.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BRANG PENGGUNA PADA DINAS PERTANIAN KABUPATEN BEKASI TAHUN 2018']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-21.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-21.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-21.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-23.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PENGUJIAN KENDARAAN BERMOTOR']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-23.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  TATA CARA PENYUSUNAN RANCANGAN PERATURAN DAERAH DAN RANCANGAN PERATURAN DAERAH PERUBAHAN']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-23.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  KERJASAMA ANTAR DESA']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-23.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  PEDOMAN PEMBENTUKAN BADAN PERWAKILAN DESA']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-23.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-23.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-23.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-17.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN BOJONGMANGU KABUPATEN BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-17.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN CIKARANG UTARA KABUPATEN BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-25.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  SUMBER PENDAPATAN DAN KEKAYAAN DESA, PENGURUSAN DAN PENGAWASANNYA']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-25.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  KEDUDUKAN KEUANGAN KEPALA DESA DAN PERANGKAT DESA']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-17.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUK PENGGUNA PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA INSPEKTORAT KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-17.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA SEKRETARIAT DPRD KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-17.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA SATUAN POLISI PAMONG PRAJA KABUPATEN BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-25.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  TATA CARA PEMILIHAN DAN ATAU PENGANGKATAN PERANGKAT DESA']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-17.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA BADAN PENELITIAN DAN PENGEMBANGAN DAERAH KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-17.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-17.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-17.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-25.html>
+{'peraturan': ['PERATURAN DAERAH TENTANGTATA CARA PENCALONAN PEMILIHAN, PENGANGKATAN DAN PEMBERHENTIAN KEPALA DESA']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-25.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PAJAK PENGGUNAAN ENERGI LISTRIK DENGAN RAHMAT TUHAN YANG MAHA ESA BUPATI BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-25.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  RETRIBUSI PELAYANAN PEMAKAMAN DAN PENGABUAN MAYAT DENGAN RAHMAT TUHAN YANG MAHA ESA BUPATI KEPALA DAERAH TINGKAT II BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-25.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-25.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-25.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-26.html> (referer: None)
+2020-02-28 23:12:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-19.html> (referer: None)
+2020-02-28 23:12:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-22.html> (referer: None)
+2020-02-28 23:12:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-29.html> (referer: None)
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-26.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  RETRIBUSI PENGGANTIAN BIAYA CETAK KARTU TANDA PENDUDUK DAN AKTA CATATAN SIPIL']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-26.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  RETRIBUSI IZIN TRAYEK']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-26.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  RETRIBUSI IJIN GANGGUAN']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-26.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  RETRIBUSI IZIN MENDIRIKAN BANGUNAN']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-19.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA DINAS SOSIAL KABUPATEN BEKASI TAHUN 2019']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-19.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN KETIGA ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-788-BPKD 2017 TENTANG PENUNJUKAN KUASA PENGGUNA BARANG DAN PENGURUS BARANG PEMBANTU PADA SEKRETARIAT DAERAH KABUPAT']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-26.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  RETRIBUSI PENJUALAN PRODUKSI USAHA DAERAH']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-26.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  RETRIBUSI TEMPAT REKREASI DAN OLAHRAGA']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-19.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNAN BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN TAMBUN UTARA KABUPATEN BEKASI TAHUN ANGGARAN 2018']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-19.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA DINAS KOMUNIKASI INFORMATIKA PERSANDIAN DAN STATISTIK KABUPATEN BEKASI TAHU']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-26.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-26.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-26.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-19.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA DINAS PENDIDIKAN KABUPATEN BEKASI TAHUN 2018']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-19.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN KARANGBAHAGIA KABUPATEN BEKASI']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-19.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-19.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-22.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARNG PENGGUNA PADA BADAN PENANGGULANGAN BENCANA DAERAH KABUPATEN BEKASI TAHUN 2018']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-22.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG,PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KEDUNGWARINGIN KABUPATEN BEKASI TAHUN 2018']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-19.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-22.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG,PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN BABELAN KABUPATEN BEKASI TAHUN 2018']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-22.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN KUASA PENGGUNA BARANG DAN PENGURUS BARANG PEMBANTU PADA BAGIAN SEKRETARIAT DAERAH KABUPATEN BEKASI TAHUN 2018']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-22.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA BARANG,PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PADA DINAS KETAHANAN PANGAN KABUPATEN BEKASI TAHUN 2018']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-29.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-790-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-29.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-784-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-29.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-758-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-22.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-800-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-22.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-22.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-22.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-29.html>
+{'peraturan': ['KEPUTUSAN BUAPTI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-776-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-29.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-762-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PADA DINAS PER']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-29.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN KEDUA ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-767-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARNAG DAN PENGURUS BARANG PENGGUNA']}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-29.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-29.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-29.html>
+{'peraturan': []}
+2020-02-28 23:12:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-32.html> (referer: None)
+2020-02-28 23:12:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-24.html> (referer: None)
+2020-02-28 23:12:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-30.html> (referer: None)
+2020-02-28 23:12:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-28.html> (referer: None)
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-32.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PEMBENTUKAN TIM PENERTIBAN BARANG MILIK DAERAH BARUPA TANAH DAN ATAU BANGUNAN MILIK PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-32.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN KEDUA ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-769-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA']}
+2020-02-28 23:12:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-33.html> (referer: None)
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-32.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN KEDUA ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-789-BPKD 2017 TENTANG PENUNJUKAN PEGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-32.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG IZIN USAHA JASA KONSTRUKSI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-24.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  LEMBAGA KEMASYARAKATAN DI DESA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-24.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  PEDOMAN ORGANISASI PEMERINTAHAN DESA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-30.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN KEDUA ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-765-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-30.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN KETIGA ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-774-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUN']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-32.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PERUBAHAN ATAS PERATURAN DAERAH NOMOR 6 TAHUN 2012 TENTANG RENCANA PEMBANGUNAN JANGKA MENENGAH DAERAH KABUPATEN BEKASI TAHUN 2012-2017']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-32.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG ANGGARAN PENDAPATAN DAN BELANJA DAERAH TAHUN ANGGARAN 2017']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-24.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  PERATURAN DESA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-24.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  PEMBENTUKAN, PENGHAPUSAN, DAN PENGGABUNGAN DESA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-30.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-755-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-30.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN KEDUA ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-94A-BPKD 2018 TENTANG PENUNJUKAN KUASA PENGGUNA BARANG DAN PENGURUS BARANG PEMBANTU PADA SEKRETARIAT DAERAH KABUPATE']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-30.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-766-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-30.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-753-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG ,PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-32.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-32.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-32.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-24.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  PEMBERDAYAAN, PELESTARIAN, DAN PENGEMBANGAN ADAT - ISTIADAT SERTA LEMBAGA ADAT']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-24.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PEDOMAN PENYUSUNAN ANGGARAN PENDAPATAN DAN BELANJA DESA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-24.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-24.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-24.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-30.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-30.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-30.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-28.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  RETRIBUSI PEMERIKSAAN ALAT PEMADAM KEBAKARAN']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-28.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG RETRIBUSI PASAR']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-28.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG RETRIBUSI PARKIR DI TEPI JALAN UMUM']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-28.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG RETRIBUSI PELAYANAN PERSAMPAHAN  KEBERSIHAN']}
+2020-02-28 23:12:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-34.html> (referer: None)
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-28.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-809-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-28.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-796-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-28.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-28.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-28.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-31.html> (referer: None)
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-33.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN KEPALA DINAS KEBUDAYAAN PEMUDA DAN OLAHRAGA SELAKU PENANGGUNG JAWAB PENGELOLAAN LAPANGAN SEPAKBOLA DESA SUKADANAU KECAMATAN CIKARANG BARAT KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-33.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PETUNJUK PELAKSANAAN PERATURAN DAERAH NOMOR 10 TAHUN 2016 TENTANG BANTUAN HUKUM UNTUK MASYARAKAT MISKIN']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-33.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS SK BUPATI BEKASI NOMOR 028 KEP-775-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA DINAS P']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-33.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PENYELENGGARAAN ADMINISTRASI KEPENDUDUKAN']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-33.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028/KEP-794-BPKD-2017 TENTANG PENUNJUKAN PENGGUNA BARANG , PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-33.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS SK BUPATI BEKASI NOMOR 028 KEP-813-BPKD-2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMAT']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-33.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-33.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-33.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-36.html> (referer: None)
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-34.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PEMBENTUKAN DAN SUSUNAN PERANGKAT DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-34.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-806-BPKD 2017 PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATA']}
+2020-02-28 23:12:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-27.html> (referer: None)
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-34.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PERTANGGUNGJAWABAN PELAKSANAAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN BEKASI TAHUN ANGGARAN 2015']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-31.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOOMOR 028 KEP-768-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-31.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-808-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-34.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG KETENAGAKERJAAN']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-34.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN BEKASI NOMOR 3 TAHUN 2010 TENTANG RENCANA PEMABNGUNAN JANGKA PANJANG DAERAH KABUPATEN BEKASI TAHUN 2005-2025']}
+2020-02-28 23:12:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-38.html> (referer: None)
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-31.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN KEDUA ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-774-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-31.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERSETUJUAN PINJAM PAKAI BARANG MILIK DAERAH BERUPA TANAH DAN BANGUNAN/GEDUNG MILIK PEMERINTAH KABUPATEN  BEKASI YANG BERLOKASI KOMPLEK PERKANTORAN PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-34.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS SK BUPATI BEKASI NOMOR 028 KEP-789-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-34.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-34.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-34.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-31.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUAPTI BEKASI NOMOR 028 KEP-782-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-31.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-761-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-31.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-31.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-31.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-36.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PEMBERDAYAAN DAN PENGEMBANGAN USAHA MIKRO']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-36.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PENYERTAAN MODAL PEMERINTAH DAERAH KABUPATEN BEKASI PADA PERSEROAN TERBATAS BANK PEMBANGUNAN DAERAH JAWA BARAT DAN BANTEN, Tbk']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-36.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PAJAK DAERAH']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-36.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN  BUPATI BEKASI NOMOR 028 KEP-774-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG,PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PADA DINAS PER']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-36.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-765-BPKD 2017-TENTANG PENUNJUKAN PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PADA DINAS PER']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-36.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA PEJABAT PENATA USAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA RUMAH SAKIT UMUM']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-36.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-36.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-36.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-27.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  RETREBUSI RUMAH POTONG HEWAN']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-27.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  RETRIBUSI PENYEDOTAN KAKUS']}
+2020-02-28 23:12:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-35.html> (referer: None)
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-27.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  RETRIBUSI TEMPAT KHUSUS PARKIR']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-27.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG  RETRIBUSI TERMINAL']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-27.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG RETRIBUSI PASAR GROSIR DAN PERTOKOAN']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-27.html>
+{'peraturan': ['PERATURAN DAERAH TENTANGRETRIBUSI PEMAKAIAN KEKAYAAN DAERAH']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-27.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-27.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-27.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-38.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PEMBENTUKAN TIM PEMUTAKHIRAN DATA BARANG MILIK DAERAH PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-38.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PEMBENTUKAN TIM PENDAYAGUNAAN DAN PENERTIBAN BARANG MILIK DAERAH YANG DI MANFAATMELALUI PINJAM PAKAI RUISLAG  KERJASAMA PEMANFAATAN']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-38.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANGPERSONIL PENDAMPINGAN LAYANAN PENGADAAN BARANG JASA DI LINGKUNGAN PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-38.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG STANDAR HARGA TERTINGGI BARANG JASA PEMERINTAH KABUPATEN BEKASI TAHUN 2020']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-38.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG JENIS PENDUKUNG KEGIATAN PADA BAGIAN UMUM DAN BAGIAN PERLENGKAPAN SEKRETARIAT DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-38.html>
+{'peraturan': ['SK NOMOR KEPUTUSAN BUPATI TENTANG PEMBENTUKAN TIM TEKNIS PENYUSUNAN BUKU STANDAR HARGA TERTINGGI BARANG JASA DI LINGKUNGAN PEMERINTAH KAB BEKASI 2020']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-38.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-38.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-38.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-37.html> (referer: None)
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-35.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS SK BUPATI BEKASI NOMOR 028 KEP-769-BPKD 2017 TENTANG PENGGUNA BARANG, PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA DINAS PEKERJAAN UM']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-35.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-786-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG,  PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-35.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS SK BUPATI BEKASI NOMOR 028 KEP-788-BPKD 2017 TENTANG PENUNJUKAN KUASA PENGGUNA BARANG DAN PENGURUS BARANG PEMBANTU PADA SEKRETARIAT DAERAH KABUPATEN BEKASI TAHU']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-35.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PERTANGGUNGJAWABAN PELAKSANAAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN BEKASI TAHUN ANGGARAN 2016']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-35.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PRODUK HUKUM DAERAH']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-35.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG KABUPATEN LAYAK ANAK']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-35.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-35.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-35.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-37.html>
+{'peraturan': ['SK NOMOR 028 KEP-43-A-BPKD 2018-PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-BPKD 2017 TENTANG PENUNJUKAN BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PADA BADAN PENDAPATAN']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-37.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-802-BPKD 2017 TENTANG PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA K']}
+2020-02-28 23:12:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-42.html> (referer: None)
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-37.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PERUBAHAN ATAS KEPUTUSAN BUPATI BEKASI NOMOR 028 KEP-804-BPKD 2017 PENUNJUKAN PENGGUNA BARANG PEJABAT PENATAUSAHAAN PENGGUNA BARANG DAN PENGURUS BARANG PENGGUNA PADA KECAMATAN']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-37.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG TIM PENDAMPINGAN PENYUSUNAN LAPORAN BARANG MILIK DAERAH PERANGKAT DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-37.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PEMBENTUKAN TIM PENGELOLAAN APLIKASI SISTEM INFORMASI MANAJEMEN BARANG MILIK DAERAH (SIM BMD) PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-41.html> (referer: None)
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-37.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PEMBENTUKAN TIM MAJELIS PERTIMBANGAN DAN SEKRETARIAT MAJELIS PERTIMBANGAN TUNTUTAN GANTI KERUGIAN DAERAH TERHADAP PEGAWAI NEGERI BUKAN BENDAHARA ATAU PEJABAT LAIN']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-37.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-37.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-37.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-46.html> (referer: None)
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-42.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PAJAK DAERAH']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-42.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG ORGANISASI PERANGKAT DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-45.html> (referer: None)
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-42.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PEMBENTUKAN ORGANISASI PERANGKAT DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-42.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG KEDUDUKAN PROTOKOLER DAN KEUANGAN PIMPINAN DAN ANGGOTA DEWAN PERWAKILAN RAKYAT DAERAH']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-42.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PERUBAHAN KEDUA ATAS PERATURAN DAERAH KABUPATEN BEKASI NOMOR 8 TAHUN 2004 TENTANG KEDUDUKAN PROTOKOLER DAN KEUANGAN PIMPINAN DAN ANGGOTA DEWAN PERWAKILAN RAKYAT DAERAH']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-42.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG HAK KEUANGAN DAN ADMINISTRATIF PIMPINAN DAN ANGGOTA DEWAN PERWAKILAN RAKYAT DAERAH']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-42.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-42.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-42.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-41.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PELESTARIAN CAGAR BUDAYA DI KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-41.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG IRIGASI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-41.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG RETRIBUSI PERPANJANGAN IZIN MEMPEKERJAKAN TENAGA KERJA ASING']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-41.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG IZIN MENDIRIKAN BANGUNAN']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-41.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PENATAAN DAN RETRIBUSI PENGENDALIAN MENARA TELEKOMUNIKASI DI KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-41.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PETUNJUK TEKNIS PERPAJAKAN DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-41.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-41.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-41.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-46.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEDOMAN PENGAWASAN KEARSIPAN DI LINGKUNGAN PEMERINTAH DAERAH']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-46.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG SISTEM DAN PROSEDUR ASET TETAP BERUPA SELAIN TANAH BANGUNAN']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-46.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG INDIKATOR KINERJA UTAMA KABUPATEN BEKASI TAHUN 2017-2022']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-46.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PERUBAHAN ATAS PERATURAN BUPATI BEKASI NOMOR 64 TAHUN 2016 TENTANG KEDUDUKAN,SUSUNAN,ORGANISASI,TUGAS,FUNGS']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-46.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG JADWAL RETENSI ARSIP URUSAN PEMERINTAH DAERAH DAN PERENCANAAN PEMBANGUNAN PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-46.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PERATURAN INTERNAL RUMAH SAKIT UMUM DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-46.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-46.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-46.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-45.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG TATA KELOLA PENGGUNAAN SERTIFIKAT ELEKTRONIK']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-45.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEDOMAN PEMBANGUNAN ZONA INTEGRITAS']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-45.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG STANDAR OPERASIONAL PROSEDUR ADMINISTRASI PEMERINTAH DI LINGKUNGAN SEKRETARIAT DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-45.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PAKAIAN DINAS PEGAWAI NEGERI SIPIL DI LINGKUNGAN PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-45.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEMBENTUKAN KOMITE ETIK PENYELENGGARAAN PELAYANAN PENGADAAN BARANG / JASA PADA BAGIAN LAYANAN PENGADAAN BARANG/JASA SEKRETARIAT DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-40.html> (referer: None)
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-45.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PERUBAHAN ATAS PERATURAN BUPATI NOMOR 44 TAHUN 2017 TENTANG PETUNJUK TEKNIS PENGADAAN BARANG/JASA DI LINGKUNGAN PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-45.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-45.html>
+{'peraturan': []}
+2020-02-28 23:12:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-45.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-39.html> (referer: None)
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-40.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PEMBENTUKAN TIM PENGELOLAAN APLIKASI SISTEM INFORMASI MANAJEMEN BARANG MILIK DAERAH (SIM BMD) PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-40.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PENYELENGGARAAN ADMINISTRASI KEPENDUDUKAN']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-40.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN BEKASI NOMOR 7 TAHUN 2011 TENTANG PENYELENGGARAAN ADMINISTRASI KEPENDUDUKAN']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-40.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PENETAPAN PERUBAHAN STATUS DESA TELAGA ASIH MENJADI KELURAHAN TELAGA ASIH KECAMATAN CIKARANG BARAT DAN DESA KERTASARI MENJADI KELURAHAN KERTASARI KECAMATAN PEBAYURAN KABUPATEN']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-40.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG IZIN GANGGUAN DAN IZIN TEMPAT USAHA DI KABUPATEN BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-40.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PENGELOLAAN USAHA PERTAMBANGAN']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-40.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-40.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-40.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-44.html> (referer: None)
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-39.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENGELOLA KEGIATAN DAN PEMBENTUKAN KELOMPOK KERJA (POKJA) BAGIAN LAYANAN PENGADAAN BARANG DAN JASA PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-39.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PEMBENTUKAN PANITIA PENYELENGGARAAN PERINGATAN HARI PRAMUKA KE 57,HARI JADI KABUPATEN BEKASI  KE-68']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-39.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG TIM SELEKSI ADMINISTRASI CALON DIREKTOR TEKNIK DAN DIREKTUR USAHA PERUSAHAAN DAERAH AIR MINUM TIRTA BHAGASARI BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-39.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANGTATA CARA PELAKSANAAN SELEKSI CALON DIREKTUR TEKNIK DAN DIREKTUR USAHA PERUSAHAAN  AIR MINUM TIRTA BHAGASARI BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-39.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENGANGKATAN PEJABAT SEMENTARA DIREKTUR USAHA PERUSAHAAN DAERAH AIR MINUM TIRTA BHAGASARI BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-39.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENUNJUKAN PENGGUNA ANGGARAN DAN BENDAHARA PENGELUARAN PADA BADAN KESATUAN BANGSA DAN POLITIK KABUPATEN BEKASI TAHUN ANGGARAN 2018']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-39.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-39.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-39.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-49.html> (referer: None)
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-44.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG TIM SELEKSI ADMINISTRASI CALON DIREKTOR TEKNIK DAN DIREKTUR USAHA PERUSAHAAN DAERAH AIR MINUM TIRTA BHAGASARII']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-44.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG TATA CARA PELAKSANAAN SELEKSI CALON DIREKTUR TEKNIK DAN DIREKTUR USAHA PERUSAHAAN  AIR MINUM TIRTA BHAGASARI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-44.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENGANGKATAN PEJABAT SEMENTARA DIREKTUR USAHA PDAM TIRTA BHAGASASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-44.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PENJABARAN ANGGARAN PENDAPATAN BELANJA DAERAH TAHUN ANGGARAN 2019']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-44.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PETUNJUK TEKNIS PERPAJAKAN DAERAH']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-44.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG STANDAR OPERASIONAL PROSEDUR PUSAT DATA']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-44.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-44.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-44.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-52.html> (referer: None)
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-49.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PERUBAHAN ATAS PERATURAN BUPATI NOMOR 24.A TAHUN 2017 TENTANG RENCANA KERJA PEMERINTAH DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-49.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG KODE ETIK PEGAWAI NEGERI SIPIL DI LINGKUNGAN PEMERINTAH DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-49.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PETUNJUK PELAKSANAAN PERDA KABUPATEN BEKASI NOMOR 1 TAHUN 2018 TENTANG KAWASAN TANPA ROKOK']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-49.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG TATA HUBUNGAN KERJA PERANGKAT DAERAH DI LINGKUNGAN PEMERINTAH DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-49.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG MATRIK RENCANA PEMBANGUNAN JANGKA MENENGAH DAERAH (RPJMD) KABUPATEN BEKASI TAHUN 2017-2022']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-49.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PENGENDALIAN PEMANFAATAN RUANG DAN RETRIBUSI IZIN PEMANFAATAN RUANG']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-49.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-49.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-49.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-51.html> (referer: None)
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-52.html>
+{'peraturan': ['MONITORING DAN EVALUASI IZIN LOKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-52.html>
+{'peraturan': ['PENYELENGGARAAN KABUPATEN LAYAK ANAK']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-52.html>
+{'peraturan': ['TATA HUBUNGAN KERJA PERANGKAT DAERAH DI LINGKUNGAN PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-52.html>
+{'peraturan': ['KETERTIBAN UMUM']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-52.html>
+{'peraturan': ['PEMBERDAYAAN DAN PENGEMBANGAN USAHA MIKRO']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-52.html>
+{'peraturan': ['PAJAK DAERAH']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-52.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-52.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-52.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-48.html> (referer: None)
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-51.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG PAJAK DAERAH']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-51.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG RENCANA PEMBANGUNAN JANGKA PANJANG MENENGAH DAERAH KABUPATEN BEKASI TAHUN 2017-2022']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-51.html>
+{'peraturan': ['PERUBAHAN KEDUA ATAS PERATURAN DAERAH NOMOR 6 TAHUN 2011 TENTANG RETRIBUSI DAERAH']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-51.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEMBENTUKAN PRODUK HUKUM DAERAH']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-51.html>
+{'peraturan': ['PENYELENGGARAAN PENYERAHAN PRASARANA, SARANA DAN UTILITAS PERUMAHAN, RUMAH SUSUN, DAN PERNIAGAAN DI KABUPATEN BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-54.html> (referer: None)
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-51.html>
+{'peraturan': ['OPTIMALISASI PELAYANAN KESEHATAN BAGI PENYANDANG THALASEMIA']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-51.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-51.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-51.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-48.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEDOMAN UJIAN DINAS DAN UJIAN PENYESUAIAN KENAIKAN PANGKAT BAGI PEGAWAI NEGERI SIPIL DI LINGKUNGAN PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-48.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEDOMAN PEMBERIAN PERMAKANAN BAGI FAKIR MISKIN ATAU TERLANTAR DI KABUPATEN BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-48.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PETUNJUK TEKNIS PELAKSANAAN SENSUS BARANG MILIK DAERAH DI LIINGKUNGAN PEMERINTAH KAB BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-48.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEDOMAN TATA NASKAH DINAS DI LINGKUNGAN PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-48.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PENJABARAN PERTANGGUNG JAWABAN PELAKSANAAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN BEKASI TAHUN ANGGARAN 2017']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-48.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PETUNJUK PELAKSANAAN PERATURAN DAERAH KABUPATEN BEKASI NOMOR 31 TENTANG KEPROTOKOLAN DI LINGKUNGAN KABUPATEN BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-48.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-48.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-48.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-55.html> (referer: None)
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-54.html>
+{'peraturan': ['PEMBENTUKAN DAN SUSUNAN PERANGKAT DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-54.html>
+{'peraturan': ['PENTANGGUNGJAWABAN PELAKSANAAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN BEKASI TAHUN ANGGARAN 2015']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-54.html>
+{'peraturan': ['PENYELENGGARAAN KEPARIWISATAAN']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-54.html>
+{'peraturan': ['PERUBAHAN KEDUA ATAS PERATURAN DAERAH NOMOR 6 TAHUN 2012 TENTANG RENCANA PEMBANGUNAN JANGKA MENENGAH DAERAH KABUPATEN BEKASI TAHUN 2012-2017']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-54.html>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN BEKASI NOMOR 3 TAHUN 2010 TENTANG RENCANA PEMBANGUNAN JANGKA PANJANG DAERAH KABUPATEN BEKASI TAHUN 2005 – 2025']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-54.html>
+{'peraturan': ['TANGGUNG JAWAB SOSIAL DAN LINGKUNGAN PERUSAHAAN']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-54.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-54.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-54.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-53.html> (referer: None)
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-55.html>
+{'peraturan': ['PENYERTAAN MODAL PEMERINTAH KABUPATEN BEKASI PADA PERUSAHAAN DAERAH AIR MINUM TIRTA BHAGASASI BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-55.html>
+{'peraturan': ['LEMBAGA PENYIARAN PUBLIK LOKAL KABUPATEN BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-55.html>
+{'peraturan': ['PENYELENGGARAAN PERPUSTAKAAN']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-55.html>
+{'peraturan': ['IZIN USAHA JASA KONSTRUKSI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-55.html>
+{'peraturan': ['BANGUNAN GEDUNG']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-55.html>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH NOMOR 6 TAHUN 2012 TENTANG RENCANA PEMBANGUNAN JANGKA MENENGAH DAERAH KABUPATEN BEKASI TAHUN 2012-2017']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-55.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-55.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-55.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-43.html> (referer: None)
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-53.html>
+{'peraturan': ['RENCANA INDUK PEMBANGUNAN KEPARIWISATAAN DAERAH KABUPATEN BEKASI TAHUN 2018 - 2025']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-53.html>
+{'peraturan': ['KAWASAN TANPA ROKOK']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-53.html>
+{'peraturan': ['IZIN LINGKUNGAN']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-53.html>
+{'peraturan': ['BANTUAN HUKUM UNTUK ORANG MISKIN']}
+2020-02-28 23:12:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-58.html> (referer: None)
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-53.html>
+{'peraturan': ['PENYELENGGARAAN ADMINISTRASI KEPENDUDUKAN']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-53.html>
+{'peraturan': ['DESA']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-53.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-53.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-53.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-43.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG RETRIBUSI PELAYANAN KESEHATAN PADA RUMAH SAKIT DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-43.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG IZIN PENGELOLAAN LIMBAH PADAT BUKAN BERASAL DARI BAHAN BERBAHAYA DAN BERACUN (NON-B3) YANG BERNILAI EKONOMIS']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-43.html>
+{'peraturan': ['PERATURAN DAERAH TENTANG ANGGARAN PENDAPATAN DAN BELANJA DAERAH TAHUN ANGGARAN 2018']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-43.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PETUNJUK PELAKSANAAN PERATURAN DAERAH NOMOR 10 TAHUN 2016 TENTANG BANTUAN HUKUM UNTUK MASYARAKAT MISKIN']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-43.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PEMBENTUKAN TIM PENDAYAGUNAAN DAN PENERTIBAN BARANG MILIK DAERAH YANG DI MANFAAT MELALUI PINJAM PAKAI RUISLAG  KERJASAMA']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-43.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PENGELOLA KEGIATAN DAN PEMBENTUKAN KELOMPOK KERJA (POKJA) BAGIAN LAYANAN PENGADAAN BARANG DAN JASA PEMKAB BEKASI.pdf']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-43.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-43.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-43.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-56.html> (referer: None)
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-58.html>
+{'peraturan': ['IRIGASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-58.html>
+{'peraturan': ['RETRIBUSI PERPANJANGAN IZIN MEMPEKERJAKAN TENAGA KERJA ASING']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-58.html>
+{'peraturan': ['PENGELOLAAN USAHA PERTAMBANGAN']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-58.html>
+{'peraturan': ['PENYELENGGARAAN KESEJAHTERAAN SOSIAL']}
+2020-02-28 23:12:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-57.html> (referer: None)
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-58.html>
+{'peraturan': ['PENINGKATAN KEMAMPUAN BACA TULIS AL-QUR’AN']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-58.html>
+{'peraturan': ['RETRIBUSI PERPANJANGAN IZIN MEMPEKERJAKAN TENAGA KERJA ASING']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-58.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-58.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-58.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-56.html>
+{'peraturan': ['ORGANISASI PERANGKAT DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-56.html>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN BEKASI NOMOR 6 TAHUN 2011 TENTANG RETRIBUSI DAERAH']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-56.html>
+{'peraturan': ['KETENTUAN PENCEGAHAN DAN PENANGGULANGAN BAHAYA KEBAKARAN']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-56.html>
+{'peraturan': ['PENYERTAAN MODAL PEMERINTAH KABUPATEN BEKASI PADA PERUSAHAAN DAERAH AIR MINUM TIRTA BHAGASASI BEKASI']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-56.html>
+{'peraturan': ['PENYELENGGARAAN KEARSIPAN']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-56.html>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN BEKASI NOMOR 7 TAHUN 2011 TENTANG PENYELENGGARAAN ADMINISTRASI KEPENDUDUKAN']}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-56.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-56.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-56.html>
+{'peraturan': []}
+2020-02-28 23:12:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-60.html> (referer: None)
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-57.html>
+{'peraturan': ['PENETAPAN PERUBAHAN STATUS DESA TELAGA ASIH MENJADI KELURAHAN TELAGA ASIH KECAMATAN CIKARANG BARAT DAN DESA KERTASARI MENJADI KELURAHAN KERTASARI KECAMATAN PEBAYURAN KABUPATEN BEKASI']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-57.html>
+{'peraturan': ['IZIN GANGGUAN DAN IZIN TEMPAT USAHA']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-57.html>
+{'peraturan': ['IZIN MENDIRIKAN BANGUNAN']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-57.html>
+{'peraturan': ['PENATAAN DAN RETRIBUSI PENGENDALIAN MENARA TELEKOMUNIKASI']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-57.html>
+{'peraturan': ['PENYERTAAN MODAL PEMERINTAH KABUPATEN BEKASI PADA PERUSAHAAN DAERAH AIR MINUM (PDAM) TIRTA BHAGASASI BEKASI']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-57.html>
+{'peraturan': ['PELESTARIAN CAGAR BUDAYA DI KABUPATEN BEKASI']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-57.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-57.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-57.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-61.html> (referer: None)
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-60.html>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN BEKASI NOMOR 7 TAHUN 2009 TENTANG ORGANISASI PERANGKAT DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-60.html>
+{'peraturan': ['HIMNE DAN MARS KABUPATEN BEKASI']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-60.html>
+{'peraturan': ['PENGELOLAAN ZAKAT']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-60.html>
+{'peraturan': ['PAJAK DAERAH']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-60.html>
+{'peraturan': ['ANGGARAN PENDAPATAN DAN BELANJA DAERAH TAHUN ANGGARAN 2011']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-60.html>
+{'peraturan': ['PERUBAHAN ANGGARAN P ENDAPATAN DAN BELANJA DAERAH KABUPATEN BEKASI TAHUN ANGGARAN 2010']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-60.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-60.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-60.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-62.html> (referer: None)
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-61.html>
+{'peraturan': ['PERTANGGUNGJAWABAN PELAKSANAAN ANGGARAN P ENDAPATAN DAN BELANJA DAERAH KABUPATEN BEKASI TAHUN ANGGARAN 2009']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-61.html>
+{'peraturan': ['RENCANA PEMBANGUNAN JANGKA PANJANG DAERAH (RPJPD) KABUPATEN BEKASI TAHUN 2005 – 2025']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-61.html>
+{'peraturan': ['PEMBENTUKAN P.T. BEKASI PUTERA JAYA']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-61.html>
+{'peraturan': ['PEMBENTUKAN P.T. BUMI BEKASI JAYA']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-61.html>
+{'peraturan': ['ORGANISASI PERANGKAT DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-65.html> (referer: None)
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-61.html>
+{'peraturan': ['PENYERTAAN MODAL DAERAH']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-61.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-61.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-61.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-62.html>
+{'peraturan': ['PEMBENTUKAN PERATURAN DAERAH']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-62.html>
+{'peraturan': ['ORGANISASI PERANGKAT DAERAH KABUPATEN']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-62.html>
+{'peraturan': ['URUSAN PEMERINTAHAN KABUPATEN BEKASI']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-62.html>
+{'peraturan': ['PERTANGGUNGJAWABAN PELAKSANAAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH 4 PERUBAHAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH TAHUN ANGGARAN 2008']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-62.html>
+{'peraturan': ['PERTANGGUNGJAWABAN PELAKSANAAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-62.html>
+{'peraturan': ['PERUBAHAN STATUS DESA MENJADI KELURAHAN']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-62.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-62.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-62.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-59.html> (referer: None)
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-65.html>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN BEKASI NOMOR 8 TAHUN 2001 TENTANG PENGELOLAAN PASAR DAN TEMPAT PERBELANJAAN']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-65.html>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN BEKASI NOMOR 12 TAHUN 1999 TENTANG RETRIBUSI PENYEDOTAN KAKUS']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-65.html>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN BEKASI NOMOR 04 TAHUN 1999 TENTANG RETRIBUSI PELAYANAN PERSAMPAHAN/KEBERSIHAN']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-65.html>
+{'peraturan': ['TATA CARA PEMILIHAN, PENCALONAN, PENGANGKATAN, PELANTIKAN DAN PEMBERHENTIAN KEPALA DESA']}
+2020-02-28 23:12:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-67.html> (referer: None)
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-65.html>
+{'peraturan': ['BADAN PERMUSYAWARATAN DESA']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-65.html>
+{'peraturan': ['BANTUAN KEUANGAN PEMERINTAH KABUPATEN BEKASI KEPADA PARTAI POLITIK']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-65.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-65.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-65.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-59.html>
+{'peraturan': ['PENYELENGGARAAN PENANGGULANGAN BENCANA']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-59.html>
+{'peraturan': ['PENGELOLAAN AIR TANAH']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-59.html>
+{'peraturan': ['PENYERTAAN MODAL PEMERINTAH KABUPATEN BEKASI PADA PERUSAHAAN DAERAH AIR MINUM TIRTA BHAGASASI BEKASI']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-59.html>
+{'peraturan': ['PENGELOLAAN BARANG MILIK DAERAH']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-59.html>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN BEKASI NOMOR 6 TAHUN 2009 TENTANG PENGENDALIAN PEMANFAATAN RUANG DAN RETRIBUSI IZIN PEMANFAATAN RUANG']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-59.html>
+{'peraturan': ['PENYELENGGARAAN ADMINISTRASI KEPENDUDUKAN']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-59.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-59.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-59.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-47.html> (referer: None)
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-67.html>
+{'peraturan': ['BAGI HASIL DAN BANTUAN KEUANGAN KEPADA DESA']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-67.html>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN BEKASI NOMOR 11 TAHUN 20 00 TENTANG SUMBER PENDAPATAN DAN KEKAYAAN DESA, PENGURUSAN DAN PENGAWASANNYA']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-67.html>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN BEKASI NOMOR 9 TAHUN 2000 TENTANG TATA CARA PEMILIHAN DAN ATAU PENGANGKATAN PERANGKAT DAERAH']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-67.html>
+{'peraturan': ['ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN BEKASI TAHUN ANGGARAN 2005']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-67.html>
+{'peraturan': ['KEDUDUKAN PROTOKOLER DAN KEUANGAN PIMPINAN DAN ANGGOTA DEWAN PERWAKILAN RAKYAT DAERAH']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-67.html>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN BEKASI NOMOR 4 TAHUN 2002 TENTANG KEDUDUKAN KEUANGAN BUPATI DAN WAKIL. BUPATI']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-67.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-67.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-67.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-64.html> (referer: None)
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-47.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG ATURAN INTERNAL STAF MEDIS RUMAH SAKIT UMUM DAERAH']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-47.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEDOMAN TEKNIS PEMBENTUKAN DEWAN PENGAWAS RUMAH SAKIT UMUM DAERAH KABUPATEN BEKASI.']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-47.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PENJABARAN PERUBAHAN ANGGARAN PENDAPATAN DAN BELANJAN DAERAH TAHUN ANGGARAN 2018']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-47.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PERUBAHAN KEDUA PERATURAN BUPATI NOMOR 59 TAHUN 2017 TENTANG PEMBENTUKAN UNIT PELAKSANA TEKNIS DAERAH PADA DINAS DAN BADAN DI LINGKUNGAN PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-47.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEDOMAN SISTEM KEARSIPAN BERBASIS DIGITAL DI LINGKUNGAN PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-47.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEDOMAN PELAYANAN KESEJAHTERAAN SOSIAL PENYANDANG MASALAH']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-47.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-47.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-47.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-63.html> (referer: None)
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-64.html>
+{'peraturan': ['PENYELENGGARAAN KEPARIWISATAAN']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-64.html>
+{'peraturan': ['RETRIBUSI PETERNAKAN, PERIKANAN DAN KELAUTAN']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-64.html>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH NOMOR 13 TAHUN 2002 TENTANG RETRIBUSI PELAYANAN KESEHATAN DAN RETRIBUSI IZIN PENYELENGGARAAN SARANA KESEHATAN SWASTA']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-64.html>
+{'peraturan': ['PERUBAHAN KEDUA ATAS PERATURAN DAERAH KABUPATEN BEKASI NOMOR 8 TAHUN 2004 TENTANG KEDUDUKAN PROTOKOLER DAN KEUANGAN PIMPINAN DAN ANGGOTA DEWAN PERWAKILAN RAKYAT DAERAH']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-64.html>
+{'peraturan': ['ANGGARAN PENDAPATAN DAN BELANJA DAERAH TAHUN ANGGARAN 2007']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-64.html>
+{'peraturan': ['POKOK-POKOK PENGELOLAAN KEUANGAN DAERAH']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-64.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-64.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-64.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-66.html> (referer: None)
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-63.html>
+{'peraturan': ['PEMERINTAHAN DESA']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-63.html>
+{'peraturan': ['RETRIBUSI PELAYANAN KESEHATAN PADA RUMAH SAKIT DAERAH']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-63.html>
+{'peraturan': ['PENYERTAAN MODAL DAERAH KABUPATEN BEKASI PADA P.T. BANK JABAR/BANK PEMBANGUNAN DAERAH JAWA BARAT (PERSERO) TAHUN ANGGARAN 2007']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-63.html>
+{'peraturan': ['PENYERTAAN MODAL DAERAH KABUPATEN BEKASI PADA PERUSAHAAN DAERAH AIR MINUM (PDAM) BEKASI TAHUN ANGGARAN 2007']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-63.html>
+{'peraturan': ['IZIN PENGELOLAAN LIMBAH PADAT BUKAN BERASAL DARI BAHAN BERBAHAYA DAN BERACUN (NON-B3) YANG BERNILAI EKONOMIS']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-63.html>
+{'peraturan': ['PENYELENGGARAAN PENDAFTARAN PENDUDUK, PENCATATAN SIPIL DAN RETRIBUSI PENGGANTIAN BIAYA CETAK DOKUMEN PENDAFTARAN PENDUDUK DAN PENCATATAN SIPIL DI KABUPATEN BEKASI 8']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-63.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-63.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-63.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-66.html>
+{'peraturan': ['ANGGARAN PENDAPATAN DAN BELANJA DAERAH KABUPATEN BEKASI TAHUN ANGGARAN 2006']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-66.html>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN BEKASI NOMOR 17 TAHUN 2001 TENTANG PENGELOLAAN']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-66.html>
+{'peraturan': ['PERHITUNGAN ANGGARAN PENDAPATAN DAN BELANJA DAERAH TAHUN ANGGARAN 2004']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-66.html>
+{'peraturan': ['PENGELOLAAN KUALITAS AIR DAN PENGENDALIAN PENCEMARAN AIR DI KABUPATEN BEKASI']}
+2020-02-28 23:12:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-50.html> (referer: None)
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-66.html>
+{'peraturan': ['PENYELENGGARAAN LALU LINTAS JALAN DAN PERBENGKELAN KENDARAAN BERMOTOR DI WILAYAH KABUPATEN BEKASI']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-66.html>
+{'peraturan': ['PEDOMAN PEMBENTUKAN, PENGHAPUSAN DAN PENGGABUNGAN KELURAHAN']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-66.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-66.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-66.html>
+{'peraturan': []}
+2020-02-28 23:12:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-69.html> (referer: None)
+2020-02-28 23:12:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-73.html> (referer: None)
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-50.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG TATA CARA PENGESAHAN SITE PLAN, SARAN TEKNIS IZIN MENDIRIKAN BANGUNAN DAN SERTIFIKAT LAIK FUNGSI (SLF)']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-50.html>
+{'peraturan': ['KEPUTUSAN BUPATI TENTANG PEMBENTUKAN TIM PENGELOLA JARINGAN DOKUMENTASI DAN INFORMASI HUKUM PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-50.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PETUNJUK PENERIMAAN PESERTA DIDIK BARU DI KABUPATEN BEKASI TAHUN ANGGARAN 2018/2019']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-50.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PETUNJUK PELAKSANAAN PERDA BEKASI NOMOR 9 TAHUN 2016 TENTANG PENYELENGGARAAN ADMINISTRASI KEPENDUDUKAN']}
+2020-02-28 23:12:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-50.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEDOMAN PEMBERIAN TAMBAHAN PENGHASILAN BAGI PEGAWAI NEGERI SIPIL DI LINGKUNGAN PEMERINTAH KABUPATEN BEKASI']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-50.html>
+{'peraturan': ['PERATURAN BUPATI TENTANG PEDOMAN PENGELOLAAN PENERIMAAN DAN PENGELUARAN DAERAH YANG TIDAK MELALUI REKENING KAS UMUM DAERAH']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-50.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-50.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-50.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-69.html>
+{'peraturan': ['PERUBAHAN ATAS PERATURAN DAERAH KABUPATEN DAERAH TINGKAT II BEKASI NOMOR 18 TAHUN 1999 TENTANG RETRIBUSI IZIN GANGGUAN']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-69.html>
+{'peraturan': ['PERUBAHAN KETIGA PERATURAN DAERAH KABUPATEN BEKASI NOMOR 17/HK-PD/TB.013.1/VIII/1984 TENTANG LARANGAN PERBUATAN TUNA SUSILA']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-69.html>
+{'peraturan': ['PERUBAHAN KEDUA ATAS PERATURAN DAERAH KABUPATEN DAERAH TINGKAT II BEKASI NOMOR 14 TAHUN 1991 TENTANG IZIN UNDANG-UNDANG GANGGUAN DAN IZIN TEMPAT USAHA Dl WILAYAH KABUPATEN DAERAH TINGKAT II BEKASI']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-69.html>
+{'peraturan': ['PENYELENGGARAAN PELAYANAN AKTA CATATAN SIPIL']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-69.html>
+{'peraturan': ['PELAKSANAAN PENDAFTARAN PENDUDUK']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-69.html>
+{'peraturan': ['PEMBERIAN IZIN MEMPEKERJAKAN TENAGA KERJA WARGA NEGARA ASING PENDATANG DAN IURAN DANA PENGEMBANGAN KEAHLIAN DAN KETERAMPILAN']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-69.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-69.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-69.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-72.html> (referer: None)
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-73.html>
+{'peraturan': ['PEDOMAN PEMBENTUKAN BADAN PERWAKILAN DESA']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-73.html>
+{'peraturan': ['LEMBAGA KEMASYARAKATAN DI DESA']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-73.html>
+{'peraturan': ['PEDOMAN ORGANISASI PEMERINTAHAN DESA']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-73.html>
+{'peraturan': ['PERATURAN DESA']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-73.html>
+{'peraturan': ['PEMBENTUKAN, PENGHAPUSAN, DAN PENGGABUNGAN DESA']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-73.html>
+{'peraturan': ['PEMBERDAYAAN, PELESTARIAN, DAN PENGEMBANGAN ADAT - ISTIADAT SERTA LEMBAGA ADAT']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-73.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-73.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-73.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-70.html> (referer: None)
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-72.html>
+{'peraturan': ['RETRIBUSI TANDA DAFTAR PERUSAHAAN']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-72.html>
+{'peraturan': ['PERUBAHAN YANG KEDUA KALI PERATURAN DAERAH KABUPATEN DAERAH TINGKAT II BEKASI NOMOR 17/HK-PD TB.013. l/VIII/1984 TENTANG  LARANGAN PERBUATAN TUNA SUSILA']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-72.html>
+{'peraturan': ['KETENTUAN PENCEGAHAN DAN PENANGGULANGAN BAHAYA KEBAKARAN']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-72.html>
+{'peraturan': ['PENGUJIAN KENDARAAN BERMOTOR']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-72.html>
+{'peraturan': ['TATA CARA PENYUSUNAN RANCANGAN PERATURAN DAERAH DAN RANCANGAN PERATURAN DAERAH PERUBAHAN']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-72.html>
+{'peraturan': ['KERJASAMA ANTAR DESA']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-72.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-72.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-72.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-70.html>
+{'peraturan': ['PEDOMAN PELAKSANAAN KERJASAMA PEMERINTAH DAERAH DENGAN PIHAK KETIGA']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-70.html>
+{'peraturan': ['PENGELOLAAN BARANG DAERAH']}
+2020-02-28 23:12:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-68.html> (referer: None)
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-70.html>
+{'peraturan': ['PEDOMAN PERUBAHAN PEMANFAATAN LAHAN PERKOTAAN']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-70.html>
+{'peraturan': ['RENCANA TATA RUANG KAWASAN IBUKOTA KABUPATEN BEKASI DAN DAERAH SEKITARNYA (KORIDOR TIMUR - BARAT']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-70.html>
+{'peraturan': ['PENGELOLAAN AIR BAWAH TANAH']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-70.html>
+{'peraturan': ['PENYIDIK PEGAWAI NEGERI SIPIL']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-70.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-70.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-70.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-75.html> (referer: None)
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-68.html>
+{'peraturan': ['PEMBENTUKAN ORGANISASI PERANGKAT DAERAH KABUPATEN BEKASI']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-68.html>
+{'peraturan': ['IZIN PEMBUANGAN LIMBAH CAIR']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-68.html>
+{'peraturan': ['PEMBENTUKAN BADAN USAHA MILIK DAERAH (BUMD)']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-68.html>
+{'peraturan': ['PAJAK PARKIR']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-68.html>
+{'peraturan': ['PENGUJIAN KENDARAAN BERMOTOR']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-68.html>
+{'peraturan': ['PERUBAHAN PERTAMA ATAS PERATURAN DAERAH KABUPATEN BEKASI NOMOR 26 TAHUN 2000 TENTANG PENGUJIAN KENDARAAN BERMOTOR']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-68.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-68.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-68.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-71.html> (referer: None)
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-75.html>
+{'peraturan': ['PAJAK PENGGUNAAN ENERGI LISTRIK']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-75.html>
+{'peraturan': ['RETRIBUSI PELAYANAN PEMAKAMAN DAN PENGABUAN MAYAT']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-75.html>
+{'peraturan': ['RETRIBUSI PENGGANTIAN BIAYA CETAK KARTU TANDA PENDUDUK DAN AKTA CATATAN SIPIL']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-75.html>
+{'peraturan': ['RETREBUSI IZIN TRAYEK']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-75.html>
+{'peraturan': ['RETREBUSI IJIN GANGGUAN']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-75.html>
+{'peraturan': ['RETREBUSI IZIN MENDIRIKAN BANGUNAN']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-75.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-75.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-75.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-77.html> (referer: None)
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-71.html>
+{'peraturan': ['PERUBAHAN YANG PERTAMA KALI PERATURAN DAERAH KABUPATEN BEKASI NOMOR 20 TAHUN 1999 TENTANG RETRIBUSI PENGGANTIAN BIAYA CETAK KARTU TANDA PENDUDUK DAN AKTA CATATAN SIPIL']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-71.html>
+{'peraturan': ['RETRIBUSI PELAYANAN DI BIDANG PERTAHANAN DAN PENATAAN RUANG']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-71.html>
+{'peraturan': ['PENGELOLAAN PASAR DAN TEMPAT PERBELANJAAN']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-71.html>
+{'peraturan': ['RETRIBUSI PERIKANAN']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-71.html>
+{'peraturan': ['KETENTUAN PENYELENGGARAAN FASILITAS KESEJAHTERAAN PEKERJA DI PERUSAHAAN SWASTA']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-71.html>
+{'peraturan': ['RETRIBUSI PELAYANAN DI BIDANG KETENAGAKERJAAN']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-71.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-71.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-71.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-76.html> (referer: None)
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-77.html>
+{'peraturan': ['RETRIBUSI PASAR GROSIR DAN PERTOKOAN']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-77.html>
+{'peraturan': ['RETRIBUSI PEMAKAIAN KEKAYAAN DAERAH']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-77.html>
+{'peraturan': ['RETRIBUSI PEMERIKSAAN ALAT PEMADAM KEBAKARAN']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-77.html>
+{'peraturan': ['RETRIBUSI PASAR']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-77.html>
+{'peraturan': ['RETRIBUSI PARKIR DI TEPI JALAN UMUM']}
+2020-02-28 23:12:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jdih.bekasikab.go.id/halperundangans-74.html> (referer: None)
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-77.html>
+{'peraturan': ['RETRIBUSI PELAYANAN PERSAMPAHAN / KEBERSIHAN']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-77.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-77.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-77.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-76.html>
+{'peraturan': ['RETRIBUSI PENJUALAN PRODUKSI USAHA DAERAH']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-76.html>
+{'peraturan': ['RETRIBUSI TEMPAT REKREASI DAN OLAHRAGA']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-76.html>
+{'peraturan': ['RETREBUSI RUMAH POTONG HEWAN']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-76.html>
+{'peraturan': ['RETRIBUSI PENYEDOTAN KAKUS']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-76.html>
+{'peraturan': ['RETRIBUSI TEMPAT KHUSUS PARKIR']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-76.html>
+{'peraturan': ['RETRIBUSI TERMINAL']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-76.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-76.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-76.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-74.html>
+{'peraturan': ['PEDOMAN PENYUSUNAN ANGGARAN PENDAPATAN DAN BELANJA DESA']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-74.html>
+{'peraturan': ['SUMBER PENDAPATAN DAN KEKAYAAN DESA, PENGURUSAN DAN PENGAWASANNYA']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-74.html>
+{'peraturan': ['KEDUDUKAN KEUANGAN KEPALA DESA DAN PERANGKAT DESA']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-74.html>
+{'peraturan': ['TATA CARA PEMILIHAN DAN ATAU PENGANGKATAN PERANGKAT DESA']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-74.html>
+{'peraturan': ['TATA CARA PENCALONAN PEMILIHAN, PENGANGKATAN DAN PEMBERHENTIAN KEPALA DESA']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-74.html>
+{'peraturan': ['PERUBAHAN YANG PERTAMA KALI PERATURAN DAERAH KABUPATEN DAERAH TINGKAT II BEKASI NOMOR 11 TAHUN 1999 TENTANG RETRIBUSI TEMPAT KHUSUS PARKIR']}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-74.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-74.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://jdih.bekasikab.go.id/halperundangans-74.html>
+{'peraturan': []}
+2020-02-28 23:12:40 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-02-28 23:12:40 [scrapy.extensions.feedexport] INFO: Stored csv feed (693 items) in: bekasikab.csv
+2020-02-28 23:12:40 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 21431,
+ 'downloader/request_count': 77,
+ 'downloader/request_method_count/GET': 77,
+ 'downloader/response_bytes': 601702,
+ 'downloader/response_count': 77,
+ 'downloader/response_status_count/200': 77,
+ 'elapsed_time_seconds': 6.071342,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 2, 28, 16, 12, 40, 815845),
+ 'item_scraped_count': 693,
+ 'log_count/DEBUG': 770,
+ 'log_count/INFO': 11,
+ 'memusage/max': 52219904,
+ 'memusage/startup': 52219904,
+ 'response_received_count': 77,
+ 'scheduler/dequeued': 77,
+ 'scheduler/dequeued/memory': 77,
+ 'scheduler/enqueued': 77,
+ 'scheduler/enqueued/memory': 77,
+ 'start_time': datetime.datetime(2020, 2, 28, 16, 12, 34, 744503)}
+2020-02-28 23:12:40 [scrapy.core.engine] INFO: Spider closed (finished)
