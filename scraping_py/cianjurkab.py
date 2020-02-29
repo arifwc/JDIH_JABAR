@@ -1,17 +1,17 @@
 import json
 import re
 
-with open('cianjurkab_perda.json') as json_file: 
+with open('json/cianjurkab_perda.json') as json_file: 
     data = json.load(json_file) 
 
-with open('cianjurkab_perbup.json') as json_fil: 
+with open('json/cianjurkab_perbup.json') as json_fil: 
     data2 = json.load(json_fil) 
   
 perdas = data['data'] 
 perbups = data2['data']
 peraturan = perdas+perbups
 
-data_file = open('cianjurkab.csv', 'w') 
+data_file = open('csv/cianjurkab.csv', 'w') 
 count=0 
 for perda in peraturan:
     if count==0:

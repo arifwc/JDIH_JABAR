@@ -10,7 +10,7 @@ sudah http://jdih.cianjurkab.go.id - post json data -> https://jdih.cianjurkab.g
 sudah http://jdih.purwakartakab.go.id - 
 sudah http://jdih.bandungbaratkab.go.id - 
 error http://jdih.cimahi.go.id X server not found
-belum http://jdih.bandung.go.id / ajax, susah nanti aja
+belum http://jdih.bandung.go.id -
 error http://jdih.subang.go.id X 403 Forbidden
 sudah http://jdih.bandungkab.go.id -
 sudah http://jdih.sumedangkab.go.id -
