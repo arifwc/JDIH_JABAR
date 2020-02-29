@@ -1,27 +1,27 @@
-http://jdih.bekasikota.go.id -
-http://jdih.depok.go.id -
-http://jdih.kotabogor.go.id -
-http://jdih.bogorkab.go.id -
-http://jdih.bekasikab.go.id -
-http://jdih.karawangkab.go.id -
-http://jdih.sukabumikota.go.id - 
-http://jdih.sukabumikab.go.id -
-http://jdih.cianjurkab.go.id / post json data -> https://jdih.cianjurkab.go.id/produk/perda_list.html https://jdih.cianjurkab.go.id/produk/perbup_list.html method POST
-http://jdih.purwakartakab.go.id - 
-http://jdih.bandungbaratkab.go.id - 
-http://jdih.cimahi.go.id X server not found
-http://jdih.bandung.go.id / ajax, susah nanti aja
-http://jdih.subang.go.id X 403 Forbidden
-http://jdih.bandungkab.go.id -
-http://jdih.sumedangkab.go.id -
-http://jdih.garutkab.go.id -
-http://jdih.majalengkakab.go.id -
-http://jdih.indramayukab.go.id -
-http://jdih.cirebonkab.go.id -
-http://jdih.banjarkota.go.id -
-http://jdih.ciamiskab.go.id -
-http://jdih.tasikmalayakab.go.id -
-http://jdih.kuningankab.go.id - 
-http://jdih.tasikmalayakota.go.id -
-http://jdih.pangandarankab.go.id X whoops
-http://jdih.cirebonkota.go.id / post json data -> http://jdih.cirebonkota.go.id/produk/browse method POST
+sudah http://jdih.bekasikota.go.id -
+sudah http://jdih.depok.go.id -
+sudah http://jdih.kotabogor.go.id -
+sudah http://jdih.bogorkab.go.id -
+sudah http://jdih.bekasikab.go.id -
+sudah http://jdih.karawangkab.go.id -
+sudah http://jdih.sukabumikota.go.id - 
+sudah http://jdih.sukabumikab.go.id -
+sudah http://jdih.cianjurkab.go.id - post json data -> https://jdih.cianjurkab.go.id/produk/perda_list.html https://jdih.cianjurkab.go.id/produk/perbup_list.html method POST
+sudah http://jdih.purwakartakab.go.id - 
+sudah http://jdih.bandungbaratkab.go.id - 
+error http://jdih.cimahi.go.id X server not found
+belum http://jdih.bandung.go.id / ajax, susah nanti aja
+error http://jdih.subang.go.id X 403 Forbidden
+sudah http://jdih.bandungkab.go.id -
+sudah http://jdih.sumedangkab.go.id -
+sudah http://jdih.garutkab.go.id -
+sudah http://jdih.majalengkakab.go.id -
+sudah http://jdih.indramayukab.go.id -
+sudah http://jdih.cirebonkab.go.id -
+sudah http://jdih.banjarkota.go.id -
+sudah http://jdih.ciamiskab.go.id -
+sudah http://jdih.tasikmalayakab.go.id -
+sudah http://jdih.kuningankab.go.id - 
+sudah http://jdih.tasikmalayakota.go.id -
+error http://jdih.pangandarankab.go.id X whoops
+sudah http://jdih.cirebonkota.go.id - post json data -> http://jdih.cirebonkota.go.id/produk/browse method POST
