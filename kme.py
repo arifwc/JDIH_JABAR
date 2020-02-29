@@ -11,22 +11,30 @@ import random
 
 random_state = 0 
 
-jdih = open('jdih_kota_kab_jabar.txt','r')
-all_text = jdih.read().split("\n")[1:-1]
-
+jdih = open('all_jdihkabkota_jabar.txt')
+read_jdih = jdih.read()
+all_text = read_jdih.split("\n")[1:-1]
+# filtered = re.compile(r'\b(ELEKTRONIK|TEKNOLOGI|KOMUNIKASI|KOMPUTER|APLIKASI|KOMPUTER|SISTEM|DATA|INFORMASI|SISTEM INFORMASI|INTEGRASI|JARINGAN|KEAMANAN SISTEM|KEAMANAN INFORMASI|WEBSITE|INTERNET)\b')
+# filtered_text = []
+# for text in all_text:
+#     text=text.upper()
+#     filtered_text.append(filtered.findall(text))
+# print(filtered_text)
 
 # stopword = ['PERUBAHAN', 'PERATURAN','DAERAH','TENTANG', 'NOMOR', 'TAHUN', 'KOTA', 'DAN', 'PADA', 'WALIKOTA', 'KABUPATEN', 'BUPATI', 'TIM', 'ATAS', 'UMUM', 'PERDA', 'GUBERNUR','KEPULAUAN', 'KAB' , 'NO', '2018', '2016', '2015']
 
 
 def preprocessing(line):
-    line = re.findall(r'^.*\b(Teknologi|Informasi|Jaringan|Telekomunikasi)\b.*$')
+    line = line.upper()
+    filtered = re.compile(r'(ELEKTRONIK|TEKNOLOGI|KOMUNIKASI|KOMPUTER|APLIKASI|KOMPUTER|SISTEM|DATA|INFORMASI|SISTEM INFORMASI|INTEGRASI|JARINGAN|KEAMANAN SISTEM|KEAMANAN INFORMASI|WEBSITE|INTERNET)')
+    line = str(filtered.findall(line))
     # line = line.upper()
     # line = re.sub(r"[{}]".format(string.punctuation), " ", line)
     # for stop_word in stopword:
 	# line = line.replace(stop_word, '') 
     # line =  re.sub(r'\b[0-9(.,)+]*\b', '', line)
-    # print(line)
-    # return line
+    print(line)
+    return line
 
 
 
@@ -57,18 +65,18 @@ plt.title('Elbow curve')
 plt.show()
 
 # reduce the features to 2D
-#pca = PCA(n_components=2, random_state=random_state)
-#reduced_features = pca.fit_transform(tfidf.toarray())
+pca = PCA(n_components=2, random_state=random_state)
+reduced_features = pca.fit_transform(tfidf.toarray())
 
 # reduce the cluster centers to 2D
-#reduced_cluster_centers = pca.transform(cls.cluster_centers_)
+reduced_cluster_centers = pca.transform(cls.cluster_centers_)
 
-#plt.scatter(reduced_features[:,0], reduced_features[:,1], c=cls.predict(tfidf))
-#plt.show()
+plt.scatter(reduced_features[:,0], reduced_features[:,1], c=cls.predict(tfidf))
+plt.show()
 
-#plt.scatter(reduced_cluster_centers[:, 0], reduced_cluster_centers[:,1], marker='x', s=150, c='b')
+plt.scatter(reduced_cluster_centers[:, 0], reduced_cluster_centers[:,1], marker='x', s=150, c='b')
 
-#plt.show()
+plt.show()
 
 
 
