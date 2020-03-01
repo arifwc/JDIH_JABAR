@@ -6,11 +6,11 @@ sudah http://jdih.bekasikab.go.id -
 sudah http://jdih.karawangkab.go.id -
 sudah http://jdih.sukabumikota.go.id - 
 sudah http://jdih.sukabumikab.go.id -
-sudah http://jdih.cianjurkab.go.id - post json data -> https://jdih.cianjurkab.go.id/produk/perda_list.html https://jdih.cianjurkab.go.id/produk/perbup_list.html method POST
+sudah http://jdih.cianjurkab.go.id - 
 sudah http://jdih.purwakartakab.go.id - 
 sudah http://jdih.bandungbaratkab.go.id - 
 error http://jdih.cimahi.go.id X server not found
-belum http://jdih.bandung.go.id -
+sudah http://jdih.bandung.go.id -
 error http://jdih.subang.go.id X 403 Forbidden
 sudah http://jdih.bandungkab.go.id -
 sudah http://jdih.sumedangkab.go.id -
@@ -24,4 +24,4 @@ sudah http://jdih.tasikmalayakab.go.id -
 sudah http://jdih.kuningankab.go.id - 
 sudah http://jdih.tasikmalayakota.go.id -
 error http://jdih.pangandarankab.go.id X whoops
-sudah http://jdih.cirebonkota.go.id - post json data -> http://jdih.cirebonkota.go.id/produk/browse method POST
+sudah http://jdih.cirebonkota.go.id -

@@ -14,22 +14,17 @@ random_state = 0
 jdih = open('all_jdihkabkota_jabar.txt')
 read_jdih = jdih.read()
 all_text = read_jdih.split("\n")[1:-1]
-# filtered = re.compile(r'\b(ELEKTRONIK|TEKNOLOGI|KOMUNIKASI|KOMPUTER|APLIKASI|KOMPUTER|SISTEM|DATA|INFORMASI|SISTEM INFORMASI|INTEGRASI|JARINGAN|KEAMANAN SISTEM|KEAMANAN INFORMASI|WEBSITE|INTERNET)\b')
-# filtered_text = []
-# for text in all_text:
-#     text=text.upper()
-#     filtered_text.append(filtered.findall(text))
-# print(filtered_text)
 
 # stopword = ['PERUBAHAN', 'PERATURAN','DAERAH','TENTANG', 'NOMOR', 'TAHUN', 'KOTA', 'DAN', 'PADA', 'WALIKOTA', 'KABUPATEN', 'BUPATI', 'TIM', 'ATAS', 'UMUM', 'PERDA', 'GUBERNUR','KEPULAUAN', 'KAB' , 'NO', '2018', '2016', '2015']
 
 
 def preprocessing(line):
     line = line.upper()
-    filtered = re.compile(r'(ELEKTRONIK|TEKNOLOGI|KOMUNIKASI|KOMPUTER|APLIKASI|KOMPUTER|SISTEM|DATA|INFORMASI|SISTEM INFORMASI|INTEGRASI|JARINGAN|KEAMANAN SISTEM|KEAMANAN INFORMASI|WEBSITE|INTERNET)')
+    line = re.sub(r"[^\w\s]", " ", line)
+    filtered = re.compile(r'\b(ELEKTRONIK|TEKNOLOGI|KOMUNIKASI|KOMPUTER|APLIKASI|KOMPUTER|DIGITAL|DATA|INFORMASI|SISTEM INFORMASI|INTEGRASI|JARINGAN|KEAMANAN SISTEM|KEAMANAN INFORMASI|WEBSITE|INTERNET|E-GOVERNMENT|SOFTWARE|ONLINE|INFORMATIKA)\b')
     line = str(filtered.findall(line))
     # line = line.upper()
-    # line = re.sub(r"[{}]".format(string.punctuation), " ", line)
+    
     # for stop_word in stopword:
 	# line = line.replace(stop_word, '') 
     # line =  re.sub(r'\b[0-9(.,)+]*\b', '', line)
@@ -51,7 +46,7 @@ for k in range(2, 5):
 	terms = tfidf_vectorizer.get_feature_names()
 	for i in range(k):
     		print ("Cluster %d:" % i),
-    		for ind in order_centroids[i, :10]:
+    		for ind in order_centroids[i, :5]:
         		print (' %s' % terms[ind]),
     		print
 	print(cls.labels_)
