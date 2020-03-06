@@ -50,8 +50,13 @@ for k in range(2, 5):
         		print (' %s' % terms[ind]),
     		print
 	print(cls.labels_)
+	labels = cls.labels_
+	jumlahkluster = np.bincount(labels[labels>=0])
+	print("jumlah dokumen tiap cluster")
+	print(jumlahkluster)
 	print(cls.inertia_)
 	distorsions.append(cls.inertia_)
+
 
 fig = plt.figure(figsize=(15, 5))
 plt.plot(range(2, 5), distorsions)
@@ -59,19 +64,19 @@ plt.grid(True)
 plt.title('Elbow curve')
 plt.show()
 
-# reduce the features to 2D
-pca = PCA(n_components=2, random_state=random_state)
-reduced_features = pca.fit_transform(tfidf.toarray())
+# # reduce the features to 2D
+# pca = PCA(n_components=2, random_state=random_state)
+# reduced_features = pca.fit_transform(tfidf.toarray())
 
-# reduce the cluster centers to 2D
-reduced_cluster_centers = pca.transform(cls.cluster_centers_)
+# # reduce the cluster centers to 2D
+# reduced_cluster_centers = pca.transform(cls.cluster_centers_)
 
-plt.scatter(reduced_features[:,0], reduced_features[:,1], c=cls.predict(tfidf))
-plt.show()
+# plt.scatter(reduced_features[:,0], reduced_features[:,1], c=cls.predict(tfidf))
+# plt.show()
 
-plt.scatter(reduced_cluster_centers[:, 0], reduced_cluster_centers[:,1], marker='x', s=150, c='b')
+# plt.scatter(reduced_cluster_centers[:, 0], reduced_cluster_centers[:,1], marker='x', s=150, c='b')
 
-plt.show()
+# plt.show()
 
 
 
