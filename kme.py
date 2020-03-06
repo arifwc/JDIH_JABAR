@@ -93,7 +93,7 @@ plt.show()
 
 plt.scatter(reduced_cluster_centers[:, 0], reduced_cluster_centers[:,1], marker='x', s=150, c='b')
 
-# plt.show()
+plt.show()
 
 
 
